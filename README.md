@@ -40,5 +40,17 @@ You will need the following packages to build and run the tutorial examples.
 * DejaVu fonts
 * libpng
 
-@page tutorials
-@page references
+Links
+-----
+
+* This tutorial's GitHub repo: https://github.com/coconut2015/agg-tutorial
+* This tutorial's web page: https://coconut2015.github.io/agg-tutorial
+* AGG-2.4 unofficial mirror: https://github.com/coconut2015/agg-2.4 
+
+License
+-------
+
+All source codes in this tutorial are licensed under APL 2.0.
+
+@page tutorials Tutorials
+@page references References

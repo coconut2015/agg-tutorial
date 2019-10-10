@@ -1,8 +1,8 @@
 var NAVTREE =
 [
   [ "Anti-Grain Geometry Tutorial", "index.html", [
-    [ "tutorials", "tutorials.html", "tutorials" ],
-    [ "references", "references.html", null ],
+    [ "Tutorials", "tutorials.html", "tutorials" ],
+    [ "References", "references.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

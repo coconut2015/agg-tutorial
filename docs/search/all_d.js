@@ -24,6 +24,7 @@ var searchData=
   ['recursive_5fblur_5fcalc_5fgray',['recursive_blur_calc_gray',['../structagg_1_1recursive__blur__calc__gray.html',1,'agg']]],
   ['recursive_5fblur_5fcalc_5frgb',['recursive_blur_calc_rgb',['../structagg_1_1recursive__blur__calc__rgb.html',1,'agg']]],
   ['recursive_5fblur_5fcalc_5frgba',['recursive_blur_calc_rgba',['../structagg_1_1recursive__blur__calc__rgba.html',1,'agg']]],
+  ['references',['References',['../references.html',1,'']]],
   ['renderer_5fbase',['renderer_base',['../classagg_1_1renderer__base.html',1,'agg']]],
   ['renderer_5fbase_3c_20pixfmt_5ftype_20_3e',['renderer_base&lt; pixfmt_type &gt;',['../classagg_1_1renderer__base.html',1,'agg']]],
   ['renderer_5fmarkers',['renderer_markers',['../classagg_1_1renderer__markers.html',1,'agg']]],

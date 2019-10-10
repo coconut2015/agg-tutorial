@@ -37,4 +37,4 @@ See tutorial_rendererbase.cpp for an example of constructing an RGBA renderer_ba
 It also shows how to do direct pixel manipulations using renderer_base.  In this
 example, a simple green border is drawn.  The output is saved to an PNG.
 
-\image tutorial_rendererbase.png
+\image html tutorial_rendererbase.png
