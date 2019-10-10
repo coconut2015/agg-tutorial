@@ -1,0 +1,25 @@
+var classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face =
+[
+    [ "loaded_face", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a69ca98553d1d2de824cff265f74ecb50", null ],
+    [ "~loaded_face", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#aaa6ca2d18b5e871542a2e23a7ae78ac9", null ],
+    [ "add_kerning", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a5369d68b57566219252b2aa09d22c69d", null ],
+    [ "ascent", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#aa1a1b0446208f809d4fd1318c78c81af", null ],
+    [ "ascent_b", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#ab066aecbfa3d10ee4a06c19c5924ca0e", null ],
+    [ "capable_rendering", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#ac2a6e54a4ee08b6dec6325c8c3cdddda", null ],
+    [ "char_map", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a2295c1e9abec6dd57dacc23dff1ea332", null ],
+    [ "descent", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a1f484d6be992b5578646a4ee0d59a432", null ],
+    [ "descent_b", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#ad0939de570516e1650550c495bf614b4", null ],
+    [ "flip_y", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a055917580e2ae19d0b6340ac672816cb", null ],
+    [ "height", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#accb465e4da0d9fe060ebfc3cd2b82377", null ],
+    [ "hinting", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#af2e392b605fec2effcf80d1c489bfb41", null ],
+    [ "name", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#ab90a88934427ef16e519be001cabd853", null ],
+    [ "num_faces", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a7eb38a93a2624c34323ad8edcb674b07", null ],
+    [ "prepare_glyph", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a64be3beb87b3c54c5fe42a8b520a32e5", null ],
+    [ "resolution", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a3640fa086fb35e57c60b7c916c052153", null ],
+    [ "select_instance", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a6e3bd0a008838d5891573370c8ffaaad", null ],
+    [ "set_hinting", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a5c74bf0bf181e5898e04efb81c12e1dc", null ],
+    [ "transform", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a1435d34b2d83e9b8b5738be4b715868b", null ],
+    [ "update_char_size", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#aea66fa4d99850d87f82a9b3e271236fa", null ],
+    [ "width", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a0b3798ac6be4a420438db46580421740", null ],
+    [ "write_glyph_to", "classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a8b488006fa0bfabeaade0155ce8c2d16", null ]
+];

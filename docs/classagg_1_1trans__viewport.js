@@ -1,0 +1,28 @@
+var classagg_1_1trans__viewport =
+[
+    [ "trans_viewport", "classagg_1_1trans__viewport.html#a949f8259ae89d1fda4f71f97f939de57", null ],
+    [ "align_x", "classagg_1_1trans__viewport.html#a91b4e02f5c61122e5ed1c033013a4aaf", null ],
+    [ "align_y", "classagg_1_1trans__viewport.html#a89f309259a47fec6087fb6e58390d504", null ],
+    [ "aspect_ratio", "classagg_1_1trans__viewport.html#acf2bbb3f4c7187c08ddb13c96f973ed4", null ],
+    [ "byte_size", "classagg_1_1trans__viewport.html#a138b7e04ce5fe53981af9847b26ff57f", null ],
+    [ "deserialize", "classagg_1_1trans__viewport.html#a48e31f25817a7a0e5fe98768544dcad7", null ],
+    [ "device_dx", "classagg_1_1trans__viewport.html#ae2dd422ad61c6d59c503a8e71962181d", null ],
+    [ "device_dy", "classagg_1_1trans__viewport.html#ab7f7db17adc6ef039d13eb381ab58eb4", null ],
+    [ "device_viewport", "classagg_1_1trans__viewport.html#a4917ff721dc232bc0d9e1bcef0c56543", null ],
+    [ "device_viewport", "classagg_1_1trans__viewport.html#a56e5d148238f49d3fe0888c080f4d65e", null ],
+    [ "inverse_transform", "classagg_1_1trans__viewport.html#a33a17f926bbbe5457fc7afdf58cbc01d", null ],
+    [ "inverse_transform_scale_only", "classagg_1_1trans__viewport.html#a7e6d22a8723557849ce4fc8e463f9a31", null ],
+    [ "is_valid", "classagg_1_1trans__viewport.html#a1c1ea76ff6bfd43120501fabb3232b97", null ],
+    [ "preserve_aspect_ratio", "classagg_1_1trans__viewport.html#a7a0289342098d9c19715969be09a3bd0", null ],
+    [ "scale", "classagg_1_1trans__viewport.html#adbb92520f57fcca6f997f8ab68bc2fc3", null ],
+    [ "scale_x", "classagg_1_1trans__viewport.html#a36c978f6f0efcd6e7ea5e4c168d9c8b7", null ],
+    [ "scale_y", "classagg_1_1trans__viewport.html#aa3a1989dfc3b0eb538e485b9c14c13f4", null ],
+    [ "serialize", "classagg_1_1trans__viewport.html#a0bdb2f4b4139147dc20833d7051f8001", null ],
+    [ "to_affine", "classagg_1_1trans__viewport.html#a65e2e37165bfdc746ef4b35a32ce799e", null ],
+    [ "to_affine_scale_only", "classagg_1_1trans__viewport.html#a722f394b6f879f396358225e8a9981a6", null ],
+    [ "transform", "classagg_1_1trans__viewport.html#a03cf057e570175a517108ddb0393087e", null ],
+    [ "transform_scale_only", "classagg_1_1trans__viewport.html#adda3980c2bdd00f2f2706edd580a553b", null ],
+    [ "world_viewport", "classagg_1_1trans__viewport.html#acc62c397093b9e899def67f16cf3b7b5", null ],
+    [ "world_viewport", "classagg_1_1trans__viewport.html#a2cc163288fe4c1a39d55136ff8f3f66f", null ],
+    [ "world_viewport_actual", "classagg_1_1trans__viewport.html#a87cd74066d4c0896c4cae817ef7f8626", null ]
+];

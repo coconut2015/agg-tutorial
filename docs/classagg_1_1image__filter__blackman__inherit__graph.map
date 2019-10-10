@@ -1,0 +1,8 @@
+<map id="agg::image_filter_blackman" name="agg::image_filter_blackman">
+<area shape="rect" id="node2" href="$classagg_1_1image__filter__blackman100.html" title="agg::image_filter_blackman100" alt="" coords="252,5,475,32"/>
+<area shape="rect" id="node3" href="$classagg_1_1image__filter__blackman144.html" title="agg::image_filter_blackman144" alt="" coords="252,56,475,83"/>
+<area shape="rect" id="node4" href="$classagg_1_1image__filter__blackman196.html" title="agg::image_filter_blackman196" alt="" coords="252,107,475,133"/>
+<area shape="rect" id="node5" href="$classagg_1_1image__filter__blackman256.html" title="agg::image_filter_blackman256" alt="" coords="252,157,475,184"/>
+<area shape="rect" id="node6" href="$classagg_1_1image__filter__blackman36.html" title="agg::image_filter_blackman36" alt="" coords="256,208,471,235"/>
+<area shape="rect" id="node7" href="$classagg_1_1image__filter__blackman64.html" title="agg::image_filter_blackman64" alt="" coords="256,259,471,285"/>
+</map>

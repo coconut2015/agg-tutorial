@@ -1,0 +1,27 @@
+var classagg_1_1vcgen__stroke =
+[
+    [ "coord_storage", "classagg_1_1vcgen__stroke.html#a8c10c2a7ac84f01d6766e3b3aa94ecbe", null ],
+    [ "vertex_storage", "classagg_1_1vcgen__stroke.html#a2ebf69f2850d0852bf0f54fe719234c3", null ],
+    [ "vcgen_stroke", "classagg_1_1vcgen__stroke.html#a11e9fa81d427e473f0eb56cec06c78a1", null ],
+    [ "add_vertex", "classagg_1_1vcgen__stroke.html#aabd5bb7402f2e1475810ce19c366d431", null ],
+    [ "approximation_scale", "classagg_1_1vcgen__stroke.html#a75ca4ae7d430117daf942e937edd742a", null ],
+    [ "approximation_scale", "classagg_1_1vcgen__stroke.html#ab0fa230df681683bffcb9a12f31cb192", null ],
+    [ "inner_join", "classagg_1_1vcgen__stroke.html#ae2c94cbe02a1df8ea258ab36e10eaf40", null ],
+    [ "inner_join", "classagg_1_1vcgen__stroke.html#a031dcfbad78e4a2240356545dea43a55", null ],
+    [ "inner_miter_limit", "classagg_1_1vcgen__stroke.html#a7370781b81299c8d3c8e01c24b4a2a97", null ],
+    [ "inner_miter_limit", "classagg_1_1vcgen__stroke.html#af210f4544d39128644e0b972e2dfbde6", null ],
+    [ "line_cap", "classagg_1_1vcgen__stroke.html#a963827eb4ff9bd80a28bfb79c3937bf2", null ],
+    [ "line_cap", "classagg_1_1vcgen__stroke.html#a375cd0cdd2733d9de50f8771608b89c6", null ],
+    [ "line_join", "classagg_1_1vcgen__stroke.html#a6db9355c26f690c52432972949ae9d8b", null ],
+    [ "line_join", "classagg_1_1vcgen__stroke.html#ae5cbe5dd0687f0cfa7730c3b64c5c889", null ],
+    [ "miter_limit", "classagg_1_1vcgen__stroke.html#aeb61124488ff5bfd258a969ff78ef70a", null ],
+    [ "miter_limit", "classagg_1_1vcgen__stroke.html#a0daaca9a87d8e3d98de3c308eb9bd44f", null ],
+    [ "miter_limit_theta", "classagg_1_1vcgen__stroke.html#a4b0e628fa8bf5a5e8844219f6edc8e61", null ],
+    [ "remove_all", "classagg_1_1vcgen__stroke.html#af8e1b1c191c03494ac9ff9c99777ee5d", null ],
+    [ "rewind", "classagg_1_1vcgen__stroke.html#a55806cc5a78ecdc870953136b7c75cb1", null ],
+    [ "shorten", "classagg_1_1vcgen__stroke.html#a0c73fca16b531d1d13b1069b22377694", null ],
+    [ "shorten", "classagg_1_1vcgen__stroke.html#a707558a3b980b0b640aaeb65aaa2ae97", null ],
+    [ "vertex", "classagg_1_1vcgen__stroke.html#a6522aa23ed209cecb91660c3f4432a5a", null ],
+    [ "width", "classagg_1_1vcgen__stroke.html#aef9badc009b7fd689fd83ae632d18918", null ],
+    [ "width", "classagg_1_1vcgen__stroke.html#ab4254d15a1e0139d5764282311dc2c18", null ]
+];

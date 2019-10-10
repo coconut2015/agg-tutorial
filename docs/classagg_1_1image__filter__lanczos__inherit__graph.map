@@ -1,0 +1,8 @@
+<map id="agg::image_filter_lanczos" name="agg::image_filter_lanczos">
+<area shape="rect" id="node2" href="$classagg_1_1image__filter__lanczos100.html" title="agg::image_filter_lanczos100" alt="" coords="237,5,445,32"/>
+<area shape="rect" id="node3" href="$classagg_1_1image__filter__lanczos144.html" title="agg::image_filter_lanczos144" alt="" coords="237,56,445,83"/>
+<area shape="rect" id="node4" href="$classagg_1_1image__filter__lanczos196.html" title="agg::image_filter_lanczos196" alt="" coords="237,107,445,133"/>
+<area shape="rect" id="node5" href="$classagg_1_1image__filter__lanczos256.html" title="agg::image_filter_lanczos256" alt="" coords="237,157,445,184"/>
+<area shape="rect" id="node6" href="$classagg_1_1image__filter__lanczos36.html" title="agg::image_filter_lanczos36" alt="" coords="241,208,441,235"/>
+<area shape="rect" id="node7" href="$classagg_1_1image__filter__lanczos64.html" title="agg::image_filter_lanczos64" alt="" coords="241,259,441,285"/>
+</map>

@@ -1,0 +1,6 @@
+.project
+.cproject
+.settings
+/debug
+/release
+/doc
