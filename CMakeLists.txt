@@ -81,29 +81,29 @@ link_libraries(
 add_executable(tutorial_rendererbase
 	tutorial/tutorial_rendererbase.cpp)
 add_test(NAME tutorial_rendererbase
-    COMMAND tutorial_rendererbase ../tutorial)
+    COMMAND tutorial_rendererbase ../images)
 
 add_executable(tutorial_path_1
 	tutorial/tutorial_path_1.cpp)
 add_test(NAME tutorial_path_1
-    COMMAND tutorial_path_1  ../tutorial)
+    COMMAND tutorial_path_1  ../images)
 
 add_executable(tutorial_path_2
 	tutorial/tutorial_path_2.cpp)
 add_test(NAME tutorial_path_2
-    COMMAND tutorial_path_2 ../tutorial)
+    COMMAND tutorial_path_2 ../images)
 
 add_executable(tutorial_path_3
 	tutorial/tutorial_path_3.cpp)
 add_test(NAME tutorial_path_3
-    COMMAND tutorial_path_3 ../tutorial)
+    COMMAND tutorial_path_3 ../images)
 
 add_executable(tutorial_linedrawing_1
 	tutorial/tutorial_linedrawing_1.cpp)
 add_test(NAME tutorial_linedrawing_1
-    COMMAND tutorial_linedrawing_1  ../tutorial)
+    COMMAND tutorial_linedrawing_1  ../images)
 
 add_executable(tutorial_linedrawing_2
 	tutorial/tutorial_linedrawing_2.cpp)
 add_test(NAME tutorial_linedrawing_2
-    COMMAND tutorial_linedrawing_2  ../tutorial)
+    COMMAND tutorial_linedrawing_2  ../images)
