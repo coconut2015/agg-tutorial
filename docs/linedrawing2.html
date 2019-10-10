@@ -102,6 +102,11 @@ $(document).ready(function(){initNavTree('linedrawing2.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>In order for agg::path_cmd_curve3, agg::path_cmd_curve4 etc to take effect, it is necessary to add an extra step that compute the actual curve path using <a class="el" href="classagg_1_1conv__curve.html">agg::conv_curve</a>. Then use this curve path to generate the stroke path.</p>
+<p>There are a number of advantages with this approach.</p>
+<ul>
+<li>One does not have to pay the cost of generating curves when there are no curves in the path.</li>
+<li>It is easy to add / combine path generators depending on the need.</li>
+</ul>
 <div class="fragment"><div class="line"><a class="code" href="classagg_1_1conv__curve.html">agg::conv_curve&lt;CmdVertexPath&gt;</a> curvePath (path);</div><div class="line"><a class="code" href="structagg_1_1conv__stroke.html">agg::conv_stroke&lt;agg::conv_curve&lt;CmdVertexPath&gt;</a>&gt; strokePath (curvePath);</div></div><!-- fragment --><h2>Example </h2>
 <p><a class="el" href="tutorial__linedrawing__2_8cpp_source.html">tutorial_linedrawing_2.cpp</a> generates an image containing a caret and a dome.</p>
 <div class="image">

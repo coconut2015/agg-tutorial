@@ -107,3 +107,8 @@ add_executable(tutorial_linedrawing_2
 	tutorial/tutorial_linedrawing_2.cpp)
 add_test(NAME tutorial_linedrawing_2
     COMMAND tutorial_linedrawing_2  ../images)
+
+add_executable(tutorial_linedrawing_3
+	tutorial/tutorial_linedrawing_3.cpp)
+add_test(NAME tutorial_linedrawing_3
+    COMMAND tutorial_linedrawing_3  ../images)
