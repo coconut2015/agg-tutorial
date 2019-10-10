@@ -51,6 +51,3 @@ License
 -------
 
 All source codes in this tutorial are licensed under APL 2.0.
-
-@page tutorials Tutorials
-@page references References

@@ -93,6 +93,11 @@ add_executable(tutorial_path_2
 add_test(NAME tutorial_path_2
     COMMAND tutorial_path_2 ../tutorial)
 
+add_executable(tutorial_path_3
+	tutorial/tutorial_path_3.cpp)
+add_test(NAME tutorial_path_3
+    COMMAND tutorial_path_3 ../tutorial)
+
 add_executable(tutorial_linedrawing_1
 	tutorial/tutorial_linedrawing_1.cpp)
 add_test(NAME tutorial_linedrawing_1

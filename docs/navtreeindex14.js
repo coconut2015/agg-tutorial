@@ -104,11 +104,12 @@ var NAVTREEINDEX14 =
 "functions_func.html":[2,3,1],
 "hierarchy.html":[2,2],
 "index.html":[],
-"linedrawing1.html":[0,3],
-"linedrawing2.html":[0,4],
+"linedrawing1.html":[0,4],
+"linedrawing2.html":[0,5],
 "pages.html":[],
 "path1.html":[0,1],
 "path2.html":[0,2],
+"path3.html":[0,3],
 "path_8h_source.html":[3,0,1,1],
 "references.html":[1],
 "rendererbase.html":[0,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "structagg_1_1color__interpolator_3_01gray8_01_4.html#a6ffdd12984681eb9427b2c68bd5ef5c7":[2,0,0,71,2],
 "structagg_1_1color__interpolator_3_01gray8_01_4.html#a7a351d0e426716d49100597f3afa2467":[2,0,0,71,3],
 "structagg_1_1color__interpolator_3_01gray8_01_4.html#a9ab1f67b05af1b7d8a70f9fdea4145ab":[2,0,0,71,1],
-"structagg_1_1color__interpolator_3_01rgba8_01_4.html":[2,0,0,72],
-"structagg_1_1color__interpolator_3_01rgba8_01_4.html#a40b57ade948ba763f2b561fcdc1a7f5f":[2,0,0,72,3]
+"structagg_1_1color__interpolator_3_01rgba8_01_4.html":[2,0,0,72]
 };

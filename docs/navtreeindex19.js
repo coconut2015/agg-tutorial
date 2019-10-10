@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"structagg_1_1trans__perspective.html#a1edeeb022ec15b2bfdee5586899f7868":[2,0,0,443,39],
 "structagg_1_1trans__perspective.html#a1f9b8a4fdff9ddeb6ee546dbb6aedb37":[2,0,0,443,22],
 "structagg_1_1trans__perspective.html#a2156eccbbeece75c4962634a01076b59":[2,0,0,443,44],
 "structagg_1_1trans__perspective.html#a269dc5000d8f967b3940763fcb0946a5":[2,0,0,443,61],
@@ -91,7 +92,8 @@ var NAVTREEINDEX19 =
 "tutorial__linedrawing__2_8cpp_source.html":[3,0,1,3],
 "tutorial__path__1_8cpp_source.html":[3,0,1,4],
 "tutorial__path__2_8cpp_source.html":[3,0,1,5],
-"tutorial__rendererbase_8cpp_source.html":[3,0,1,6],
+"tutorial__path__3_8cpp_source.html":[3,0,1,6],
+"tutorial__rendererbase_8cpp_source.html":[3,0,1,7],
 "tutorials.html":[0],
-"writepng_8h_source.html":[3,0,1,7]
+"writepng_8h_source.html":[3,0,1,8]
 };

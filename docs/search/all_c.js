@@ -2,6 +2,7 @@ var searchData=
 [
   ['path_20_2d_20fill',['Path - Fill',['../path1.html',1,'tutorials']]],
   ['path_20_2d_20fill_20even_2dodd',['Path - Fill Even-Odd',['../path2.html',1,'tutorials']]],
+  ['path_20_2d_20polygon_20with_20holes',['Path - Polygon with Holes',['../path3.html',1,'tutorials']]],
   ['path_5fbase',['path_base',['../classagg_1_1path__base.html',1,'agg']]],
   ['path_5fstorage_5finteger',['path_storage_integer',['../classagg_1_1path__storage__integer.html',1,'agg']]],
   ['path_5fstorage_5finteger_3c_20int16_2c_206_20_3e',['path_storage_integer&lt; int16, 6 &gt;',['../classagg_1_1path__storage__integer.html',1,'agg']]],

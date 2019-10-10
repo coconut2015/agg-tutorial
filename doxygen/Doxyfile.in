@@ -772,6 +772,8 @@ WARN_LOGFILE           =
 # Note: If this tag is empty the current directory is searched.
 
 INPUT                  = ../README.md \
+						 ../doxygen/tutorials.md \
+						 ../doxygen/references.md \
 						 ../doxygen/ \
 						 ../tutorial \
 						 ../agg-2.4/src \

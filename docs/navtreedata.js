@@ -35,11 +35,11 @@ var NAVTREEINDEX =
 "classagg_1_1span__image__resample.html#ac637d2ac586d5d17a707f50c13c2af9f",
 "classagg_1_1span__solid.html#a659a2d4f72344db064816ab75344a62b",
 "classagg_1_1vertex__block__storage.html#a933378e042b7aedcddfda60489e4ead4",
-"structagg_1_1color__interpolator_3_01rgba8_01_4.html#ab4308596b27a8cc354c4d2cea513cc1b",
-"structagg_1_1conv__stroke.html#a4bb509d6811f5b1e03e52fc93782a4e0",
-"structagg_1_1line__parameters.html#af7403af2073293b1a85b5f32997e35e1",
-"structagg_1_1rgba32.html#aad78af64b58ecdfed4fd2ed940f764ec",
-"structagg_1_1trans__perspective.html#a1f9b8a4fdff9ddeb6ee546dbb6aedb37"
+"structagg_1_1color__interpolator_3_01rgba8_01_4.html#a40b57ade948ba763f2b561fcdc1a7f5f",
+"structagg_1_1conv__stroke.html#a4276673db42f309b845b7df5b9560afa",
+"structagg_1_1line__parameters.html#adfbff6759da81b23e2655cdadb8e0c2e",
+"structagg_1_1rgba32.html#aa3b963be6a94e428c06398589a4a5b46",
+"structagg_1_1trans__perspective.html#a1edeeb022ec15b2bfdee5586899f7868"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
