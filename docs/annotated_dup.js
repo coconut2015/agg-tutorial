@@ -482,5 +482,6 @@ var annotated_dup =
     [ "CmdVertex", "structCmdVertex.html", "structCmdVertex" ],
     [ "CmdVertexPath", "classCmdVertexPath.html", "classCmdVertexPath" ],
     [ "SimplePath", "classSimplePath.html", "classSimplePath" ],
+    [ "TransformPath", "classTransformPath.html", "classTransformPath" ],
     [ "TutorialException", "classTutorialException.html", "classTutorialException" ]
 ];

@@ -13,7 +13,7 @@ be CW.  If not, then the holes will be filled.
 The algorithm that determines the curve orientation is pretty simple.  See
 https://en.wikipedia.org/wiki/Curve_orientation
 
-An alternative possible approach is to use the even-odd filling.
+An alternative approach to the path ordering is to use the even-odd filling.
 
 SVG's path element has the similar behavior.
 

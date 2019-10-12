@@ -8,3 +8,4 @@ Tutorials {#tutorials}
 @subpage linedrawing1
 @subpage linedrawing2
 @subpage linedrawing3
+@subpage image1

@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('path3.html','');});
 <div class="textblock"><p>To draw a polygon with holes, it is actually not all that much different from drawing regular polyons. The only thing needs to be dealt with is the curve orientation.</p>
 <p>If the outer polygon's path is specified in clockwise (CW) ordering, then the inner hole paths must be specified in counter-clockwise (CCW) ordering. Likewise, if the outer polygon's path is CCW, then inner hole paths need to be CW. If not, then the holes will be filled.</p>
 <p>The algorithm that determines the curve orientation is pretty simple. See <a href="https://en.wikipedia.org/wiki/Curve_orientation">https://en.wikipedia.org/wiki/Curve_orientation</a></p>
-<p>An alternative possible approach is to use the even-odd filling.</p>
+<p>An alternative approach to the path ordering is to use the even-odd filling.</p>
 <p>SVG's path element has the similar behavior.</p>
 <h2>Example </h2>
 <p><a class="el" href="tutorial__path__3_8cpp_source.html">tutorial_path_3.cpp</a> generates an image containing red square with a hole.</p>
