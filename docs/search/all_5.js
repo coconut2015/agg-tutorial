@@ -1,6 +1,7 @@
 var searchData=
 [
   ['font_20_2d_20basics',['Font - Basics',['../font1.html',1,'tutorials']]],
+  ['font_20_2d_20advanced',['Font - Advanced',['../font2.html',1,'tutorials']]],
   ['font_5fcache',['font_cache',['../classagg_1_1font__cache.html',1,'agg']]],
   ['font_5fcache_5fmanager',['font_cache_manager',['../classagg_1_1font__cache__manager.html',1,'agg::font_cache_manager&lt; FontEngine &gt;'],['../classagg_1_1fman_1_1font__cache__manager.html',1,'agg::fman::font_cache_manager&lt; FontEngine &gt;']]],
   ['font_5fcache_5fpool',['font_cache_pool',['../classagg_1_1font__cache__pool.html',1,'agg']]],

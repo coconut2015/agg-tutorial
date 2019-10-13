@@ -9,5 +9,6 @@ var tutorials =
     [ "Line Drawing - Dashed Line", "linedrawing3.html", null ],
     [ "Image - Basics", "image1.html", null ],
     [ "Image - Advanced", "image2.html", null ],
-    [ "Font - Basics", "font1.html", null ]
+    [ "Font - Basics", "font1.html", null ],
+    [ "Font - Advanced", "font2.html", null ]
 ];

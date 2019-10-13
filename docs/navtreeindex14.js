@@ -105,6 +105,7 @@ var NAVTREEINDEX14 =
 "exception_8h_source.html":[3,0,1,0],
 "files.html":[3,0],
 "font1.html":[0,9],
+"font2.html":[0,10],
 "functions.html":[2,3,0],
 "functions_func.html":[2,3,1],
 "hierarchy.html":[2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "structagg_1_1cell__style__aa.html#ae3fb16ca86cf93f4696226e402707312":[2,0,0,44,5],
 "structagg_1_1cell__style__aa.html#aee0a2be766b417ae489fa6f41f295821":[2,0,0,44,1],
 "structagg_1_1color__interpolator.html":[2,0,0,70],
-"structagg_1_1color__interpolator.html#a10cf7a1ef52d869eacca522d64cfa116":[2,0,0,70,0],
-"structagg_1_1color__interpolator.html#a49a762ebe891aa62e9afd23fe7cf1907":[2,0,0,70,1]
+"structagg_1_1color__interpolator.html#a10cf7a1ef52d869eacca522d64cfa116":[2,0,0,70,0]
 };

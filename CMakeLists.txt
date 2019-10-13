@@ -127,3 +127,8 @@ add_executable(tutorial_font_1
 	tutorial/tutorial_font_1.cpp)
 add_test(NAME tutorial_font_1
     COMMAND tutorial_font_1  ../images)
+
+add_executable(tutorial_font_2
+	tutorial/tutorial_font_2.cpp)
+add_test(NAME tutorial_font_2
+    COMMAND tutorial_font_2  ../images)

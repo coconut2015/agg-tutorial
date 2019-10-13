@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"structagg_1_1conv__smooth__poly1__curve.html#a507b21957ccd4f254ee12132f871314d":[2,0,0,133,2],
 "structagg_1_1conv__smooth__poly1__curve.html#aed4419ea09b5726e3ca0098a2175517b":[2,0,0,133,1],
 "structagg_1_1conv__stroke.html":[2,0,0,134],
 "structagg_1_1conv__stroke.html#a11c26fb738b015f0568406d470e8a796":[2,0,0,134,18],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "structagg_1_1line__parameters.html#a47a82fcf17ae480401d7dd019920ae84":[2,0,0,249,18],
 "structagg_1_1line__parameters.html#a48b5ccb99adabb6116a49ca989222bd5":[2,0,0,249,9],
 "structagg_1_1line__parameters.html#a68bf7fb6f2cf8bc3949e1430f13186c2":[2,0,0,249,14],
-"structagg_1_1line__parameters.html#a6c7e3d3f1a7ad39262e7392d39f687e2":[2,0,0,249,1],
-"structagg_1_1line__parameters.html#a7e70b27642c3d87c11ab047fa924fe09":[2,0,0,249,3]
+"structagg_1_1line__parameters.html#a6c7e3d3f1a7ad39262e7392d39f687e2":[2,0,0,249,1]
 };
