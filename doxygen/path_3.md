@@ -11,11 +11,13 @@ Likewise, if the outer polygon's path is CCW, then inner hole paths need to
 be CW.  If not, then the holes will be filled.
 
 The algorithm that determines the curve orientation is pretty simple.  See
-https://en.wikipedia.org/wiki/Curve_orientation
+<https://en.wikipedia.org/wiki/Curve_orientation>.  agg::path_storage also
+has the functionality.
 
 An alternative approach to the path ordering is to use the even-odd filling.
+See \ref path2.
 
-SVG's path element has the similar behavior.
+SVG's `path` element has the similar behavior.
 
 Example
 -------

@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>Anti-Grain Geometry Tutorial: Path - Polygon with Holes</title>
+<title>Anti-Grain Geometry Tutorial: Image - Advanced</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('path3.html','');});
+$(document).ready(function(){initNavTree('image2.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -98,18 +98,24 @@ $(document).ready(function(){initNavTree('path3.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Path - Polygon with Holes </div>  </div>
+<div class="title">Image - Advanced </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>To draw a polygon with holes, it is actually not all that much different from drawing regular polyons. The only thing needs to be dealt with is the curve orientation.</p>
-<p>If the outer polygon's path is specified in clockwise (CW) ordering, then the inner hole paths must be specified in counter-clockwise (CCW) ordering. Likewise, if the outer polygon's path is CCW, then inner hole paths need to be CW. If not, then the holes will be filled.</p>
-<p>The algorithm that determines the curve orientation is pretty simple. See <a href="https://en.wikipedia.org/wiki/Curve_orientation">https://en.wikipedia.org/wiki/Curve_orientation</a>. agg::path_storage also has the functionality.</p>
-<p>An alternative approach to the path ordering is to use the even-odd filling. See <a class="el" href="path2.html">Path - Fill Even-Odd</a>.</p>
-<p>SVG's <code>path</code> element has the similar behavior.</p>
+<div class="textblock"><p>In <a class="el" href="image1.html">Image - Basics</a>, the image is drawn in a square, which is not all that interesting. This tutorial should demonstrates the potential of AGG's image drawing API.</p>
+<p>The <code>drawImage</code> function is changed a bit. Instead of x/y/width/height, it takes the transformation matrix and path. Then all we needed to do is to use some creative matrix and shape when drawing the image.</p>
 <h2>Example </h2>
-<p><a class="el" href="tutorial__path__3_8cpp_source.html">tutorial_path_3.cpp</a> generates an image containing red square with a hole.</p>
+<p><a class="el" href="tutorial__image__2_8cpp_source.html">tutorial_image_2.cpp</a> first generates the following image icon.</p>
 <div class="image">
-<img src="tutorial_path_3.png" alt="tutorial_path_3.png"/>
+<img src="tutorial_image_icon.png" alt="tutorial_image_icon.png"/>
+</div>
+<p>Then it draws this image three times.</p>
+<ol type="1">
+<li>The original image.</li>
+<li>The original image with a hole in the middle.</li>
+<li>The original image sheared and with whole in the middle.</li>
+</ol>
+<div class="image">
+<img src="tutorial_image_2.png" alt="tutorial_image_2.png"/>
 </div>
  </div></div><!-- contents -->
 </div><!-- doc-content -->

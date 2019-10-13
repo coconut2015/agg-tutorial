@@ -1,7 +1,7 @@
 Path - Fill Even-Odd {#path2}
 =============================
 
-Corresponding to SVG's `fill-rule:evenodd`, AGG also has the ability to
+Corresponding to SVG's ``fill-rule:evenodd``, AGG also has the ability to
 fill evenodd.  Just set the filling_rule to agg::fill_even_odd .
 
 ```cpp

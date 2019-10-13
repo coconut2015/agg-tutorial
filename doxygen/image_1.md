@@ -1,5 +1,5 @@
-Image - Basic {#image1}
-=======================
+Image - Basics {#image1}
+========================
 
 Imaging drawing with AGG is a bit complicated.  It works quite similar
 to how SVG draws image.  Instead of drawing the source image at the target
