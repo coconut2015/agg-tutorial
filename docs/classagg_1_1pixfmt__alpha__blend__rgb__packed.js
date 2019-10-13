@@ -34,14 +34,14 @@ var classagg_1_1pixfmt__alpha__blend__rgb__packed =
     [ "copy_hline", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a2b93f0b85db4b44bb9d148464f056085", null ],
     [ "copy_pixel", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a225125b97da7c293ced66530d17330aa", null ],
     [ "copy_vline", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a6e7a8ccae3ce6244b0860b7394b09946", null ],
-    [ "height", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a47b011d1921d9b0edbf7fdb60ca3cc79", null ],
+    [ "height", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a5c44d61f9d6bd0dd0aee2102a4e2c23b", null ],
     [ "make_pix", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#ab095a9d61fb5477691bee5a78289f90f", null ],
     [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#ab3b53c87a7a16d9a66f7a51425e03b19", null ],
-    [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a2d4ff2ef9856542f12db8080a8c48c1d", null ],
-    [ "pixel", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#ad40bd4178d3018660c5c4722b90149f2", null ],
-    [ "row", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a167af6ff252850a81b8c6673eb5c19f8", null ],
+    [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a7dfb4db1bfe0faa7cd7b1e1e92a63c74", null ],
+    [ "pixel", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a7d32ec46337360baaf583b3986357ab5", null ],
+    [ "row", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a5f213369e2e3dda9b6a257ec14d64518", null ],
     [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#ad9084f080c7b62dfc4b2e95cc97c96d7", null ],
-    [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a7085217f7c6bf3c5ab8e88189ea28f66", null ],
-    [ "stride", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a49993aeebe4a14b7bef9dfebb3917968", null ],
-    [ "width", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#acb4b91e237c0a63aed3a3b634681e2b8", null ]
+    [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#ae354173c5acbe9ed3e55449b8b2ddeb2", null ],
+    [ "stride", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a11f1c4c7fcda3c3b2f1817630eae0c5d", null ],
+    [ "width", "classagg_1_1pixfmt__alpha__blend__rgb__packed.html#a8dba8f46044e82cb305732f5381c8c81", null ]
 ];

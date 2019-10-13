@@ -34,15 +34,15 @@ var classagg_1_1pixfmt__alpha__blend__gray =
     [ "copy_pixel", "classagg_1_1pixfmt__alpha__blend__gray.html#a5783e3a8bed22c72f6ec88fac4a33922", null ],
     [ "copy_vline", "classagg_1_1pixfmt__alpha__blend__gray.html#ab9b9a29c9dcadb05edc3433502e93c78", null ],
     [ "for_each_pixel", "classagg_1_1pixfmt__alpha__blend__gray.html#aa4c4bab8599e46ca2b2ff6524347d180", null ],
-    [ "height", "classagg_1_1pixfmt__alpha__blend__gray.html#a011ed9b4304b03dc8d9ce1575acdc17b", null ],
+    [ "height", "classagg_1_1pixfmt__alpha__blend__gray.html#aebd59d7109ff4a919a8a6023bcedad37", null ],
     [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#a977ace3578c77f9cb0e4a60decb575b9", null ],
-    [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#a87742230197d7dd226ac83bd1a11b6b3", null ],
+    [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#a590a76cf3a08fac4cea412e2cb0e8608", null ],
     [ "pix_value_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#a53200b2ddcc62588ea0621ee1aa77a50", null ],
-    [ "pix_value_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#a582cd92129d0058cce5ddf73857f8190", null ],
-    [ "pixel", "classagg_1_1pixfmt__alpha__blend__gray.html#ab7e3ad2c05472d6df7a649abdd724d34", null ],
-    [ "row", "classagg_1_1pixfmt__alpha__blend__gray.html#ac1465072ebc98665ffc6b53fda177a11", null ],
+    [ "pix_value_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#aebca124400e66bbb80d8db26c266b321", null ],
+    [ "pixel", "classagg_1_1pixfmt__alpha__blend__gray.html#adfec349cdf3f926ce61f2237a7e8fde7", null ],
+    [ "row", "classagg_1_1pixfmt__alpha__blend__gray.html#a584cf4f3050cd1e48d0e35df3d6ede71", null ],
     [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#ac64e4b8272f78048eb97f85627f7bbc9", null ],
-    [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#a28b8e88f4f1edbb01ace3adc4a613f0f", null ],
-    [ "stride", "classagg_1_1pixfmt__alpha__blend__gray.html#aa0f07783b90d82375e541ee3b923a8cd", null ],
-    [ "width", "classagg_1_1pixfmt__alpha__blend__gray.html#acd1f4cc66380034c2e4462122a735e8b", null ]
+    [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__gray.html#a81adf813c296016a13302a7952497955", null ],
+    [ "stride", "classagg_1_1pixfmt__alpha__blend__gray.html#ab15fa909655331031123880d2f44c386", null ],
+    [ "width", "classagg_1_1pixfmt__alpha__blend__gray.html#ac3963f9f7d9022854acfc98cd7a2dd0e", null ]
 ];

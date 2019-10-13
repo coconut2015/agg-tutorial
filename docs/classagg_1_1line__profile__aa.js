@@ -15,11 +15,11 @@ var classagg_1_1line__profile__aa =
     [ "line_profile_aa", "classagg_1_1line__profile__aa.html#ae34953bb517763b57a7cf478a3784ee4", null ],
     [ "gamma", "classagg_1_1line__profile__aa.html#a659ab5cba765e98aa335f9f06e36eb73", null ],
     [ "min_width", "classagg_1_1line__profile__aa.html#ae0434dfe93d60e285e0ed6f86a290cc1", null ],
-    [ "min_width", "classagg_1_1line__profile__aa.html#a3c622eff0accad10f4b6ea9bc32064ea", null ],
-    [ "profile_size", "classagg_1_1line__profile__aa.html#a6caa0c5b9938bda55d18ed7cb3a3736f", null ],
+    [ "min_width", "classagg_1_1line__profile__aa.html#ae8962c1c6db6ead20f02b386099aaff3", null ],
+    [ "profile_size", "classagg_1_1line__profile__aa.html#a14eac12cbefea3de53aa8109283c3220", null ],
     [ "smoother_width", "classagg_1_1line__profile__aa.html#aa526e7042b1ee7fb620bb4668847b6c7", null ],
-    [ "smoother_width", "classagg_1_1line__profile__aa.html#a3b6b78578996e7faf902cec979321e52", null ],
-    [ "subpixel_width", "classagg_1_1line__profile__aa.html#afc175821de5520b009403dbba02f7a46", null ],
-    [ "value", "classagg_1_1line__profile__aa.html#acabc52dca3907b00931623120aaf8def", null ],
+    [ "smoother_width", "classagg_1_1line__profile__aa.html#a54eb5e9d71e0a0d0229438fcdbc2f17e", null ],
+    [ "subpixel_width", "classagg_1_1line__profile__aa.html#a3d7089096a0bcc947258db91281d41e6", null ],
+    [ "value", "classagg_1_1line__profile__aa.html#a76ded1a817180613f70b490a0b28adcd", null ],
     [ "width", "classagg_1_1line__profile__aa.html#ac71d1a826da7f24f7036e900fc473994", null ]
 ];

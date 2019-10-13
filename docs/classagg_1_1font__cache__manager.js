@@ -13,11 +13,11 @@ var classagg_1_1font__cache__manager =
     [ "gray8_adaptor", "classagg_1_1font__cache__manager.html#a7c1498233bb1cc04c03a4af6dbb76e98", null ],
     [ "gray8_scanline", "classagg_1_1font__cache__manager.html#a35a97fd2c56932632e28895fc40a5c79", null ],
     [ "init_embedded_adaptors", "classagg_1_1font__cache__manager.html#aba54518472ca32ce9370067e770602f7", null ],
-    [ "last_glyph", "classagg_1_1font__cache__manager.html#a955005beffcb0a041c4f2415d23759e2", null ],
+    [ "last_glyph", "classagg_1_1font__cache__manager.html#a392961f7907ae553b296e015a6ae5d2c", null ],
     [ "mono_adaptor", "classagg_1_1font__cache__manager.html#a40dbce55e8a2b72a53f4237a1722de12", null ],
     [ "mono_scanline", "classagg_1_1font__cache__manager.html#a11a21d7b26bbb668afe0939b5de3df7e", null ],
     [ "path_adaptor", "classagg_1_1font__cache__manager.html#a955b87793f2eac8ce76ec876dc83c5e6", null ],
-    [ "perv_glyph", "classagg_1_1font__cache__manager.html#a3b6a084217903c24d8b6dab4c088d27b", null ],
+    [ "perv_glyph", "classagg_1_1font__cache__manager.html#aad76d4e526bae8bc0ee3d270dae1de6b", null ],
     [ "precache", "classagg_1_1font__cache__manager.html#ab1df39828f42719b4ae0a73efdbd6494", null ],
     [ "reset_cache", "classagg_1_1font__cache__manager.html#a63cd4e1903becac0a93d80a990c9c8d0", null ],
     [ "reset_last_glyph", "classagg_1_1font__cache__manager.html#a49f0c49296e76dbd59e104cb16da0cdd", null ]

@@ -12,7 +12,7 @@ var structagg_1_1vertex__integer =
     ] ],
     [ "vertex_integer", "structagg_1_1vertex__integer.html#a51c8381007b793ae9773203a3a93988d", null ],
     [ "vertex_integer", "structagg_1_1vertex__integer.html#aacb069dcd2a021301f7abd58bbe3c20c", null ],
-    [ "vertex", "structagg_1_1vertex__integer.html#adb5e09c88e9fcfbda6d8569cba4257c9", null ],
+    [ "vertex", "structagg_1_1vertex__integer.html#a6ee713af5a79d0b5529d78a31b4e36cb", null ],
     [ "x", "structagg_1_1vertex__integer.html#a26c9ebc3742de1a68d372df978e4c4b8", null ],
     [ "y", "structagg_1_1vertex__integer.html#a7822699cc9cf2bd0865dd650a270d497", null ]
 ];

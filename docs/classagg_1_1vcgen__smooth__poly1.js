@@ -6,6 +6,6 @@ var classagg_1_1vcgen__smooth__poly1 =
     [ "remove_all", "classagg_1_1vcgen__smooth__poly1.html#a534e41cdf0cae4f957614a54e77aa089", null ],
     [ "rewind", "classagg_1_1vcgen__smooth__poly1.html#aa0072ae5154c7cc7b00baa0d5f865558", null ],
     [ "smooth_value", "classagg_1_1vcgen__smooth__poly1.html#a9f1f11620797cd86c76f6e3bd027b621", null ],
-    [ "smooth_value", "classagg_1_1vcgen__smooth__poly1.html#a558065b06005753cb163c0100f1bdf8d", null ],
+    [ "smooth_value", "classagg_1_1vcgen__smooth__poly1.html#ad3c9e2b2e3551a52410cde9a55655fa5", null ],
     [ "vertex", "classagg_1_1vcgen__smooth__poly1.html#a1f6b1235741276e854b965fe90eac71d", null ]
 ];

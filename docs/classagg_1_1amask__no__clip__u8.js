@@ -10,12 +10,12 @@ var classagg_1_1amask__no__clip__u8 =
     [ "amask_no_clip_u8", "classagg_1_1amask__no__clip__u8.html#afe0d62131b4a553436a6e1cf6e288e26", null ],
     [ "amask_no_clip_u8", "classagg_1_1amask__no__clip__u8.html#a79115cc32481d2bba8731a3c9590cbea", null ],
     [ "attach", "classagg_1_1amask__no__clip__u8.html#a79f03f6b3eeb139aae1165cda0047b86", null ],
-    [ "combine_hspan", "classagg_1_1amask__no__clip__u8.html#a29e518683caa1f2b63e69cdb79f88a72", null ],
-    [ "combine_pixel", "classagg_1_1amask__no__clip__u8.html#a62fd3dfae53498990edf63221328e53a", null ],
-    [ "combine_vspan", "classagg_1_1amask__no__clip__u8.html#aa1e17ced61c03f0d3dad330904f2b240", null ],
-    [ "fill_hspan", "classagg_1_1amask__no__clip__u8.html#abea6196486f4755bfb18769fc427b797", null ],
-    [ "fill_vspan", "classagg_1_1amask__no__clip__u8.html#a7af456f677413b004064921ff3290606", null ],
+    [ "combine_hspan", "classagg_1_1amask__no__clip__u8.html#ac4e42e18fa7d89ae8d4c1db4c3106c3d", null ],
+    [ "combine_pixel", "classagg_1_1amask__no__clip__u8.html#a8030d8b135356dd4993e2415a7510269", null ],
+    [ "combine_vspan", "classagg_1_1amask__no__clip__u8.html#a09120673512cdb890d98fd9d4d912de0", null ],
+    [ "fill_hspan", "classagg_1_1amask__no__clip__u8.html#a65adb15343d1f8bc88f5f9aeb2949435", null ],
+    [ "fill_vspan", "classagg_1_1amask__no__clip__u8.html#a2fe326a838b7c859f8a4a196b9d933a6", null ],
     [ "mask_function", "classagg_1_1amask__no__clip__u8.html#a96e0baf2efc23be09bab5419a78ced12", null ],
-    [ "mask_function", "classagg_1_1amask__no__clip__u8.html#a480a10652154eebca9e8d0770b5ff6a5", null ],
-    [ "pixel", "classagg_1_1amask__no__clip__u8.html#a9d6f7ee55b0fca72c37dce46f09382fd", null ]
+    [ "mask_function", "classagg_1_1amask__no__clip__u8.html#a1d6f7499b4d812570f74b08514753411", null ],
+    [ "pixel", "classagg_1_1amask__no__clip__u8.html#a80ee788789a30e24256a0504633002fe", null ]
 ];

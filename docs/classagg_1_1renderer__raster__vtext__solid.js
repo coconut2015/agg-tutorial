@@ -6,6 +6,6 @@ var classagg_1_1renderer__raster__vtext__solid =
     [ "ren_type", "classagg_1_1renderer__raster__vtext__solid.html#a69e5e41169e68814397c9ddfbf189a5d", null ],
     [ "renderer_raster_vtext_solid", "classagg_1_1renderer__raster__vtext__solid.html#a8dd2e222595a113550ccba8f9a61b645", null ],
     [ "color", "classagg_1_1renderer__raster__vtext__solid.html#abc9a02e7c1c6dd5c2220964da5499887", null ],
-    [ "color", "classagg_1_1renderer__raster__vtext__solid.html#af8fcc4ae6cb6bef40b5422fa5a0e3e64", null ],
+    [ "color", "classagg_1_1renderer__raster__vtext__solid.html#a2475877dcb51f4d7afaf13dd8f7c899b", null ],
     [ "render_text", "classagg_1_1renderer__raster__vtext__solid.html#af038cd28070491b2629f318d9b19c305", null ]
 ];

@@ -6,5 +6,5 @@ var structagg_1_1sbool__unite__spans__aa =
       [ "cover_mask", "structagg_1_1sbool__unite__spans__aa.html#ab454d3a6580e7a37091c1e61c93ece6aa0649f31037f1c90270d7e0f27f3f4549", null ],
       [ "cover_full", "structagg_1_1sbool__unite__spans__aa.html#ab454d3a6580e7a37091c1e61c93ece6aae13334963768a5e67b2c60234ae16559", null ]
     ] ],
-    [ "operator()", "structagg_1_1sbool__unite__spans__aa.html#a7fae3f1c0a34c77596831ac8370bb430", null ]
+    [ "operator()", "structagg_1_1sbool__unite__spans__aa.html#aae3d6df79389d408c1f7c43c7bf708b0", null ]
 ];

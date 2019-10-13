@@ -1,4 +1,4 @@
 var classagg_1_1color__conv__rgb555__to__rgb565 =
 [
-    [ "operator()", "classagg_1_1color__conv__rgb555__to__rgb565.html#aea778fd3d5073abbe789d068bc96fd8c", null ]
+    [ "operator()", "classagg_1_1color__conv__rgb555__to__rgb565.html#ac478f70be7042850575ee2714b143960", null ]
 ];

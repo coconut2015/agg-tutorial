@@ -6,7 +6,7 @@ var classagg_1_1renderer__scanline__bin__solid =
     [ "renderer_scanline_bin_solid", "classagg_1_1renderer__scanline__bin__solid.html#a453304eeee7c75e47bcbe47d40c3eb75", null ],
     [ "attach", "classagg_1_1renderer__scanline__bin__solid.html#aac0bae0675c3103ec74e171994c1de5c", null ],
     [ "color", "classagg_1_1renderer__scanline__bin__solid.html#a2ff0d19912abe9c147e2e321fab8d0ae", null ],
-    [ "color", "classagg_1_1renderer__scanline__bin__solid.html#a7c82a825f59ee299d49f4dbe7d33fd6e", null ],
+    [ "color", "classagg_1_1renderer__scanline__bin__solid.html#aaf3418cf51d18b89d5557ac8fb4d5eae", null ],
     [ "prepare", "classagg_1_1renderer__scanline__bin__solid.html#a64f08d8173450994ce0ab6d907d42202", null ],
     [ "render", "classagg_1_1renderer__scanline__bin__solid.html#a37398cf1afaa8d086cc58809537bd78e", null ]
 ];

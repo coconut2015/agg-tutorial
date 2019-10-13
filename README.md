@@ -28,17 +28,15 @@ from time-to-time.
 Requirements
 ------------
 
-This tutorial was tested on Ubuntu 16.04 LTS, but the code should be
-fairly portable on most other platforms.  The only change you may have to
-do is the font path, which is hardcoded for simplicity.
+This tutorial was tested on Ubuntu 18.04 LTS, but the code should be
+fairly portable on most other platforms.
 
 You will need the following packages to build and run the tutorial examples.
 
 * cmake
 * g++
-* freetype2
-* DejaVu fonts
 * libpng
+* freetype
 
 Links
 -----

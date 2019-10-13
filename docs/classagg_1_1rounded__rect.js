@@ -3,7 +3,7 @@ var classagg_1_1rounded__rect =
     [ "rounded_rect", "classagg_1_1rounded__rect.html#a20a4c606c26bc6a80a6134b1dcec8a86", null ],
     [ "rounded_rect", "classagg_1_1rounded__rect.html#a378a0e99b12d7cbeb4a328b8d6cf27c6", null ],
     [ "approximation_scale", "classagg_1_1rounded__rect.html#a4d3d003fad6d885609804c672912e077", null ],
-    [ "approximation_scale", "classagg_1_1rounded__rect.html#a315756a7375e23ac4abd32c4474c11a5", null ],
+    [ "approximation_scale", "classagg_1_1rounded__rect.html#a6d24c76accc4fad5552c45c48b505c93", null ],
     [ "normalize_radius", "classagg_1_1rounded__rect.html#a07c3fce483bc978d050a881b42c484eb", null ],
     [ "radius", "classagg_1_1rounded__rect.html#ad1844014d285ce0537302c34e59d414e", null ],
     [ "radius", "classagg_1_1rounded__rect.html#ab573dc6f7490280b64030977396be743", null ],

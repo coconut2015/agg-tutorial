@@ -6,8 +6,8 @@ var classagg_1_1vpgen__clip__polygon =
     [ "move_to", "classagg_1_1vpgen__clip__polygon.html#a5c36ba7e1d1aa82c937a32845d569efb", null ],
     [ "reset", "classagg_1_1vpgen__clip__polygon.html#acfd6634e46bd28e7bad29f6744abaf5a", null ],
     [ "vertex", "classagg_1_1vpgen__clip__polygon.html#a64d01d1288bbde50b43fdc73b1182fd6", null ],
-    [ "x1", "classagg_1_1vpgen__clip__polygon.html#a1d545d516eb48f5422c25385d996351c", null ],
-    [ "x2", "classagg_1_1vpgen__clip__polygon.html#a571d2a14a318e4c119175b7b8b12d10a", null ],
-    [ "y1", "classagg_1_1vpgen__clip__polygon.html#a92d58656be20daf19138388532ede770", null ],
-    [ "y2", "classagg_1_1vpgen__clip__polygon.html#a6d74f17763a40043173dd1c188226f4c", null ]
+    [ "x1", "classagg_1_1vpgen__clip__polygon.html#af98ecd5d4136ef37953ac1fb99c6efd0", null ],
+    [ "x2", "classagg_1_1vpgen__clip__polygon.html#ae1287b81d98ca0631cf49d7d756d68f7", null ],
+    [ "y1", "classagg_1_1vpgen__clip__polygon.html#a0d2e73489a912034e71cf0949124f057", null ],
+    [ "y2", "classagg_1_1vpgen__clip__polygon.html#a4e0a253665e12f357911b14d92e506ee", null ]
 ];

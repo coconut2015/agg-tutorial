@@ -20,7 +20,7 @@ var classagg_1_1pixfmt__transposer =
     [ "copy_hline", "classagg_1_1pixfmt__transposer.html#a553eb404c37026554291aaf70e3eec8f", null ],
     [ "copy_pixel", "classagg_1_1pixfmt__transposer.html#a37c414a78de2701dbda57edfad3ab60b", null ],
     [ "copy_vline", "classagg_1_1pixfmt__transposer.html#ae48049ba74c5eefcbb1c9e1bc8b613dc", null ],
-    [ "height", "classagg_1_1pixfmt__transposer.html#aea99bf6c92f0c8a3044a48d0568b9092", null ],
-    [ "pixel", "classagg_1_1pixfmt__transposer.html#abcc2222c9c7f376c0e282b73059b3f96", null ],
-    [ "width", "classagg_1_1pixfmt__transposer.html#ac61dcb27814708388451bd7c39396458", null ]
+    [ "height", "classagg_1_1pixfmt__transposer.html#a67c6dd67e9cccff4bee747d96d3e71ab", null ],
+    [ "pixel", "classagg_1_1pixfmt__transposer.html#af2b52587e9c9b99fda58ef4de9d18370", null ],
+    [ "width", "classagg_1_1pixfmt__transposer.html#ad096dc955f16073603c80c72e7bd5789", null ]
 ];

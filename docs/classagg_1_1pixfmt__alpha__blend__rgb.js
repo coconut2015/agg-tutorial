@@ -36,15 +36,15 @@ var classagg_1_1pixfmt__alpha__blend__rgb =
     [ "copy_pixel", "classagg_1_1pixfmt__alpha__blend__rgb.html#affc1aa094c4e9e8e00e1938227081d2d", null ],
     [ "copy_vline", "classagg_1_1pixfmt__alpha__blend__rgb.html#adef6915f1458751e5952c515e3316725", null ],
     [ "for_each_pixel", "classagg_1_1pixfmt__alpha__blend__rgb.html#a9aca5f9100b438eb46fffaa646b9e846", null ],
-    [ "height", "classagg_1_1pixfmt__alpha__blend__rgb.html#ac78ab047d1ad89c8adb9bbf4e2aaf255", null ],
+    [ "height", "classagg_1_1pixfmt__alpha__blend__rgb.html#a5dd62a26d18c963fd6be133eefbe553c", null ],
     [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#ae6bd74f2fb433f49e02f73c2ddc32f9d", null ],
-    [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#a5c0e291b0a0a7f60771ed56bd8a48e16", null ],
+    [ "pix_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#a6b51cf532ba45daa2c4cde8115a21f88", null ],
     [ "pix_value_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#a413051eb8286459d2363fed55c11f5bb", null ],
-    [ "pix_value_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#ab2e3bf6f670071c444ddbcbde61e95bb", null ],
-    [ "pixel", "classagg_1_1pixfmt__alpha__blend__rgb.html#acc632601f99814e67cfe543957e1c642", null ],
-    [ "row", "classagg_1_1pixfmt__alpha__blend__rgb.html#ac1c762e9a1b0fa14c917f0c20dd36e00", null ],
+    [ "pix_value_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#a0f34b46563786dcbe8fc316a8ad916ff", null ],
+    [ "pixel", "classagg_1_1pixfmt__alpha__blend__rgb.html#a66ceb3ca9a61c1898defa45edd189b69", null ],
+    [ "row", "classagg_1_1pixfmt__alpha__blend__rgb.html#a744424df15078c33b617b8cae3bd4a18", null ],
     [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#a266af7bf2b801437794c5399ea76039a", null ],
-    [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#af49158c986be3362203f348445a3c88c", null ],
-    [ "stride", "classagg_1_1pixfmt__alpha__blend__rgb.html#a806dfe2829d8b187778cd7895ec3d8d7", null ],
-    [ "width", "classagg_1_1pixfmt__alpha__blend__rgb.html#ac6b5de9e83b775270b9b518c8eaa76b8", null ]
+    [ "row_ptr", "classagg_1_1pixfmt__alpha__blend__rgb.html#a59f039a1f1102a6bf40184f8b2bb92ba", null ],
+    [ "stride", "classagg_1_1pixfmt__alpha__blend__rgb.html#acceba72cc99cff928feb68d65762f4b1", null ],
+    [ "width", "classagg_1_1pixfmt__alpha__blend__rgb.html#a20b6fd6d709b296d211aaf5b92dc7395", null ]
 ];

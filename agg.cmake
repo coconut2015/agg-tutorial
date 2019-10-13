@@ -174,3 +174,7 @@ add_library( agg STATIC
 	${agg_SOURCES}
 	${agg_HEADERS}
 )
+
+target_link_libraries( agg
+	freetype
+)

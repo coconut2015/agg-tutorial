@@ -6,6 +6,6 @@ var classagg_1_1gradient__lut =
     [ "gradient_lut", "classagg_1_1gradient__lut.html#a420a28e15af7fb106d3b74cf2e64653d", null ],
     [ "add_color", "classagg_1_1gradient__lut.html#a056b858aa4b20f7dbfe634ede4f82a88", null ],
     [ "build_lut", "classagg_1_1gradient__lut.html#aef8958aedfcdfe3664c28465bb6f3de7", null ],
-    [ "operator[]", "classagg_1_1gradient__lut.html#ae5e232091b328029ca8344808f23174e", null ],
+    [ "operator[]", "classagg_1_1gradient__lut.html#aa4c3ff208764d84dbfa93ae5d2bdb605", null ],
     [ "remove_all", "classagg_1_1gradient__lut.html#ac58e5634082ae232c2e4d0204baba6b2", null ]
 ];

@@ -22,7 +22,7 @@ var classagg_1_1pixfmt__amask__adaptor =
     [ "copy_hline", "classagg_1_1pixfmt__amask__adaptor.html#a676ecbc8892987504def6ac35d240fdf", null ],
     [ "copy_pixel", "classagg_1_1pixfmt__amask__adaptor.html#aa50c68a53a599a330739003b582c9f9a", null ],
     [ "copy_vline", "classagg_1_1pixfmt__amask__adaptor.html#ad5e23a638eb8c2a610415a3c135b6a41", null ],
-    [ "height", "classagg_1_1pixfmt__amask__adaptor.html#ae6fa2a63e9b79a99dec9f2a790fc7eb6", null ],
+    [ "height", "classagg_1_1pixfmt__amask__adaptor.html#ac34091a39f490aaafe7159e38db2adae", null ],
     [ "pixel", "classagg_1_1pixfmt__amask__adaptor.html#a871073e3e2f0ff29205e8f1cee79d45d", null ],
-    [ "width", "classagg_1_1pixfmt__amask__adaptor.html#a0a09e306a4c290121a2ff9ff5b0813bd", null ]
+    [ "width", "classagg_1_1pixfmt__amask__adaptor.html#a06ba5c777503d30a9c7a402bd7c9d21a", null ]
 ];

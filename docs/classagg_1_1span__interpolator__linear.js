@@ -9,9 +9,9 @@ var classagg_1_1span__interpolator__linear =
     [ "span_interpolator_linear", "classagg_1_1span__interpolator__linear.html#ac3772100efd15790cf85e9210376d209", null ],
     [ "span_interpolator_linear", "classagg_1_1span__interpolator__linear.html#a8843e3720d410ab19a004e8d6d26605b", null ],
     [ "begin", "classagg_1_1span__interpolator__linear.html#ad19901ef40834fcd64b546aae04edccb", null ],
-    [ "coordinates", "classagg_1_1span__interpolator__linear.html#a650460dd91094c3c7f68dc81c2eac74c", null ],
+    [ "coordinates", "classagg_1_1span__interpolator__linear.html#a8fc9479e9121ef04b99d1411ca40f4d2", null ],
     [ "operator++", "classagg_1_1span__interpolator__linear.html#a0bdab257fa8950ff82f6e62d3c7b333d", null ],
     [ "resynchronize", "classagg_1_1span__interpolator__linear.html#a99c43b57d9052013a0b53e344265e4a6", null ],
-    [ "transformer", "classagg_1_1span__interpolator__linear.html#a2cb6f0a248518dcad2ee78c8290ab225", null ],
+    [ "transformer", "classagg_1_1span__interpolator__linear.html#a7422a041aecbd8baae1b4ed96e3b6891", null ],
     [ "transformer", "classagg_1_1span__interpolator__linear.html#a29cf0f4d552979c4c991c47b05acacdd", null ]
 ];

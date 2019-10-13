@@ -41,6 +41,5 @@ var searchData=
   ['image_5ffilter_5fspline16',['image_filter_spline16',['../structagg_1_1image__filter__spline16.html',1,'agg']]],
   ['image_5ffilter_5fspline36',['image_filter_spline36',['../structagg_1_1image__filter__spline36.html',1,'agg']]],
   ['iterator',['iterator',['../classagg_1_1scanline32__u8_1_1iterator.html',1,'agg::scanline32_u8']]],
-  ['iterator_5fx',['iterator_x',['../classagg_1_1trans__perspective_1_1iterator__x.html',1,'agg::trans_perspective']]],
-  ['iterator_5fx',['iterator_x',['../classagg_1_1trans__bilinear_1_1iterator__x.html',1,'agg::trans_bilinear']]]
+  ['iterator_5fx',['iterator_x',['../classagg_1_1trans__perspective_1_1iterator__x.html',1,'agg::trans_perspective::iterator_x'],['../classagg_1_1trans__bilinear_1_1iterator__x.html',1,'agg::trans_bilinear::iterator_x']]]
 ];

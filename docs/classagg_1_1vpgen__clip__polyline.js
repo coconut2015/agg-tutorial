@@ -6,8 +6,8 @@ var classagg_1_1vpgen__clip__polyline =
     [ "move_to", "classagg_1_1vpgen__clip__polyline.html#a78691c305fcf9d75682a2ac05954458c", null ],
     [ "reset", "classagg_1_1vpgen__clip__polyline.html#a1b72defa58e1848ab38f4dca53050a7f", null ],
     [ "vertex", "classagg_1_1vpgen__clip__polyline.html#a4a2d95ae498b6db7551193d02450e473", null ],
-    [ "x1", "classagg_1_1vpgen__clip__polyline.html#a1bfaf768a2c2fbe9021026eb220661b5", null ],
-    [ "x2", "classagg_1_1vpgen__clip__polyline.html#aeb677dbe4cb2a03a3abd324363df4a51", null ],
-    [ "y1", "classagg_1_1vpgen__clip__polyline.html#a852ae9fe08f929117a8689756dba14ed", null ],
-    [ "y2", "classagg_1_1vpgen__clip__polyline.html#ab4012828e9b8916023679d68108b13d8", null ]
+    [ "x1", "classagg_1_1vpgen__clip__polyline.html#a9b385da453659a168386cdc4ee99a315", null ],
+    [ "x2", "classagg_1_1vpgen__clip__polyline.html#abce57391a9baa0fadf57bb2068dd82b5", null ],
+    [ "y1", "classagg_1_1vpgen__clip__polyline.html#a187223c88188b91a23b2260690ab377f", null ],
+    [ "y2", "classagg_1_1vpgen__clip__polyline.html#a9415d2d19c9db14e03f6d99e4a711324", null ]
 ];

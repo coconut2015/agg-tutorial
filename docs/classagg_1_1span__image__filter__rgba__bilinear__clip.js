@@ -10,7 +10,7 @@ var classagg_1_1span__image__filter__rgba__bilinear__clip =
     [ "value_type", "classagg_1_1span__image__filter__rgba__bilinear__clip.html#a4ff5a54baa506375c928abc02a84d806", null ],
     [ "span_image_filter_rgba_bilinear_clip", "classagg_1_1span__image__filter__rgba__bilinear__clip.html#ac38c16b71c60cdf432e8ec5c06d7c2fc", null ],
     [ "span_image_filter_rgba_bilinear_clip", "classagg_1_1span__image__filter__rgba__bilinear__clip.html#acdf48af18c4caec59f65f8e979345179", null ],
-    [ "background_color", "classagg_1_1span__image__filter__rgba__bilinear__clip.html#a269feb3dc3f064e6c82b2bd10654f50f", null ],
+    [ "background_color", "classagg_1_1span__image__filter__rgba__bilinear__clip.html#a41ab7433711b4963ad39cd4eaeef0512", null ],
     [ "background_color", "classagg_1_1span__image__filter__rgba__bilinear__clip.html#a3afa8a3a65e17cfb97b3ed74d1dbdd54", null ],
     [ "generate", "classagg_1_1span__image__filter__rgba__bilinear__clip.html#a56af53ee3a4ad016eeb234a4b4bd29de", null ]
 ];

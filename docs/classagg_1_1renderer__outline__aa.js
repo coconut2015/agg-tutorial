@@ -9,8 +9,8 @@ var classagg_1_1renderer__outline__aa =
     [ "blend_solid_vspan", "classagg_1_1renderer__outline__aa.html#ae43221ac900946681a1e2339c47fa50b", null ],
     [ "clip_box", "classagg_1_1renderer__outline__aa.html#a47a895a994f9870480ef09bae43a59be", null ],
     [ "color", "classagg_1_1renderer__outline__aa.html#a3ba7d71bab634b3a6f983fa3fb55a983", null ],
-    [ "color", "classagg_1_1renderer__outline__aa.html#a20fcc3d2f19d8ce214f4150a3670d60a", null ],
-    [ "cover", "classagg_1_1renderer__outline__aa.html#ae4f4720907b099e5500238a44ea05bc5", null ],
+    [ "color", "classagg_1_1renderer__outline__aa.html#a72f4b9e84ff727fdb97587abc26dad76", null ],
+    [ "cover", "classagg_1_1renderer__outline__aa.html#a9fa1ee78e117ae67a2328c7651456ea0", null ],
     [ "line0", "classagg_1_1renderer__outline__aa.html#a71649a9f8fa083775af714b44c84da6b", null ],
     [ "line0_no_clip", "classagg_1_1renderer__outline__aa.html#a08b2d2bb2a216d56c3345346c36081f7", null ],
     [ "line1", "classagg_1_1renderer__outline__aa.html#afb4d6b81b7e4e42a9abf33562e679b33", null ],
@@ -22,10 +22,10 @@ var classagg_1_1renderer__outline__aa =
     [ "pie", "classagg_1_1renderer__outline__aa.html#ad218d9da7619299fadd90071bc1c918e", null ],
     [ "pie_hline", "classagg_1_1renderer__outline__aa.html#a28daa13d024f60b1b1827a37ad447c60", null ],
     [ "profile", "classagg_1_1renderer__outline__aa.html#afa35c2eab1c1141f97c8f63b535b17fe", null ],
-    [ "profile", "classagg_1_1renderer__outline__aa.html#abd5b15aa7c79bcea548473a3915babfe", null ],
+    [ "profile", "classagg_1_1renderer__outline__aa.html#a3a9eac8534e32a7c255f97e0b8605136", null ],
     [ "profile", "classagg_1_1renderer__outline__aa.html#ac253d8839753c7bee0a4d9f1b9103434", null ],
     [ "reset_clipping", "classagg_1_1renderer__outline__aa.html#a7f6568598d6e3a5ec8454cbe342acdcf", null ],
     [ "semidot", "classagg_1_1renderer__outline__aa.html#a2c2e20c93b18239c3b76f1ea0f3e8bd3", null ],
     [ "semidot_hline", "classagg_1_1renderer__outline__aa.html#a0e090c0becc63a275ab1767afbb890df", null ],
-    [ "subpixel_width", "classagg_1_1renderer__outline__aa.html#a63a352f52366619752720f6b0ecf34fd", null ]
+    [ "subpixel_width", "classagg_1_1renderer__outline__aa.html#ae3876d1c3bc03d072de386cd6ea8ff44", null ]
 ];

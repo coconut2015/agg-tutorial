@@ -1,29 +1,29 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structagg_1_1blender__base.html" title="agg::blender_base\&lt;\l ColorT, Order \&gt;" alt="" coords="5,823,156,864"/>
-<area shape="rect" id="node2" href="$classagg_1_1blender__rgb__gamma.html" title="agg::blender_rgb_gamma\l\&lt; ColorT, Order, Gamma \&gt;" alt="" coords="215,5,411,47"/>
-<area shape="rect" id="node3" href="$structagg_1_1comp__op__rgba__clear.html" title="agg::comp_op_rgba_clear\l\&lt; ColorT, Order \&gt;" alt="" coords="220,71,407,112"/>
-<area shape="rect" id="node4" href="$structagg_1_1comp__op__rgba__color__burn.html" title="agg::comp_op_rgba_color\l_burn\&lt; ColorT, Order \&gt;" alt="" coords="220,136,407,177"/>
-<area shape="rect" id="node5" href="$structagg_1_1comp__op__rgba__color__dodge.html" title="agg::comp_op_rgba_color\l_dodge\&lt; ColorT, Order \&gt;" alt="" coords="220,201,407,243"/>
-<area shape="rect" id="node6" href="$structagg_1_1comp__op__rgba__darken.html" title="agg::comp_op_rgba_darken\l\&lt; ColorT, Order \&gt;" alt="" coords="213,267,413,308"/>
-<area shape="rect" id="node7" href="$structagg_1_1comp__op__rgba__difference.html" title="agg::comp_op_rgba_difference\l\&lt; ColorT, Order \&gt;" alt="" coords="204,332,423,373"/>
-<area shape="rect" id="node8" href="$structagg_1_1comp__op__rgba__dst.html" title="agg::comp_op_rgba_dst\l\&lt; ColorT, Order \&gt;" alt="" coords="225,397,401,439"/>
-<area shape="rect" id="node9" href="$structagg_1_1comp__op__rgba__dst__atop.html" title="agg::comp_op_rgba_dst\l_atop\&lt; ColorT, Order \&gt;" alt="" coords="225,463,401,504"/>
-<area shape="rect" id="node10" href="$structagg_1_1comp__op__rgba__dst__in.html" title="agg::comp_op_rgba_dst\l_in\&lt; ColorT, Order \&gt;" alt="" coords="225,528,401,569"/>
-<area shape="rect" id="node11" href="$structagg_1_1comp__op__rgba__dst__out.html" title="agg::comp_op_rgba_dst\l_out\&lt; ColorT, Order \&gt;" alt="" coords="225,593,401,635"/>
-<area shape="rect" id="node12" href="$structagg_1_1comp__op__rgba__dst__over.html" title="agg::comp_op_rgba_dst\l_over\&lt; ColorT, Order \&gt;" alt="" coords="225,659,401,700"/>
-<area shape="rect" id="node13" href="$structagg_1_1comp__op__rgba__exclusion.html" title="agg::comp_op_rgba_exclusion\l\&lt; ColorT, Order \&gt;" alt="" coords="206,724,421,765"/>
-<area shape="rect" id="node14" href="$structagg_1_1comp__op__rgba__hard__light.html" title="agg::comp_op_rgba_hard\l_light\&lt; ColorT, Order \&gt;" alt="" coords="221,789,406,831"/>
-<area shape="rect" id="node15" href="$structagg_1_1comp__op__rgba__lighten.html" title="agg::comp_op_rgba_lighten\l\&lt; ColorT, Order \&gt;" alt="" coords="214,855,413,896"/>
-<area shape="rect" id="node16" href="$structagg_1_1comp__op__rgba__minus.html" title="agg::comp_op_rgba_minus\l\&lt; ColorT, Order \&gt;" alt="" coords="216,920,411,961"/>
-<area shape="rect" id="node17" href="$structagg_1_1comp__op__rgba__multiply.html" title="agg::comp_op_rgba_multiply\l\&lt; ColorT, Order \&gt;" alt="" coords="210,985,417,1027"/>
-<area shape="rect" id="node18" href="$structagg_1_1comp__op__rgba__overlay.html" title="agg::comp_op_rgba_overlay\l\&lt; ColorT, Order \&gt;" alt="" coords="212,1051,415,1092"/>
-<area shape="rect" id="node19" href="$structagg_1_1comp__op__rgba__plus.html" title="agg::comp_op_rgba_plus\l\&lt; ColorT, Order \&gt;" alt="" coords="222,1116,405,1157"/>
-<area shape="rect" id="node20" href="$structagg_1_1comp__op__rgba__screen.html" title="agg::comp_op_rgba_screen\l\&lt; ColorT, Order \&gt;" alt="" coords="214,1181,413,1223"/>
-<area shape="rect" id="node21" href="$structagg_1_1comp__op__rgba__soft__light.html" title="agg::comp_op_rgba_soft\l_light\&lt; ColorT, Order \&gt;" alt="" coords="223,1247,403,1288"/>
-<area shape="rect" id="node22" href="$structagg_1_1comp__op__rgba__src.html" title="agg::comp_op_rgba_src\l\&lt; ColorT, Order \&gt;" alt="" coords="226,1312,401,1353"/>
-<area shape="rect" id="node23" href="$structagg_1_1comp__op__rgba__src__atop.html" title="agg::comp_op_rgba_src\l_atop\&lt; ColorT, Order \&gt;" alt="" coords="226,1377,401,1419"/>
-<area shape="rect" id="node24" href="$structagg_1_1comp__op__rgba__src__in.html" title="agg::comp_op_rgba_src\l_in\&lt; ColorT, Order \&gt;" alt="" coords="226,1443,401,1484"/>
-<area shape="rect" id="node25" href="$structagg_1_1comp__op__rgba__src__out.html" title="agg::comp_op_rgba_src\l_out\&lt; ColorT, Order \&gt;" alt="" coords="226,1508,401,1549"/>
-<area shape="rect" id="node26" href="$structagg_1_1comp__op__rgba__src__over.html" title="agg::comp_op_rgba_src\l_over\&lt; ColorT, Order \&gt;" alt="" coords="226,1573,401,1615"/>
-<area shape="rect" id="node27" href="$structagg_1_1comp__op__rgba__xor.html" title="agg::comp_op_rgba_xor\l\&lt; ColorT, Order \&gt;" alt="" coords="225,1639,401,1680"/>
+<area shape="rect" id="node1" href="$structagg_1_1blender__base.html" title="agg::blender_base\&lt;\l ColorT, Order \&gt;" alt="" coords="5,823,157,864"/>
+<area shape="rect" id="node2" href="$classagg_1_1blender__rgb__gamma.html" title="agg::blender_rgb_gamma\l\&lt; ColorT, Order, Gamma \&gt;" alt="" coords="217,5,415,47"/>
+<area shape="rect" id="node3" href="$structagg_1_1comp__op__rgba__clear.html" title="agg::comp_op_rgba_clear\l\&lt; ColorT, Order \&gt;" alt="" coords="222,71,410,112"/>
+<area shape="rect" id="node4" href="$structagg_1_1comp__op__rgba__color__burn.html" title="agg::comp_op_rgba_color\l_burn\&lt; ColorT, Order \&gt;" alt="" coords="222,136,410,177"/>
+<area shape="rect" id="node5" href="$structagg_1_1comp__op__rgba__color__dodge.html" title="agg::comp_op_rgba_color\l_dodge\&lt; ColorT, Order \&gt;" alt="" coords="222,201,410,243"/>
+<area shape="rect" id="node6" href="$structagg_1_1comp__op__rgba__darken.html" title="agg::comp_op_rgba_darken\l\&lt; ColorT, Order \&gt;" alt="" coords="215,267,417,308"/>
+<area shape="rect" id="node7" href="$structagg_1_1comp__op__rgba__difference.html" title="agg::comp_op_rgba_difference\l\&lt; ColorT, Order \&gt;" alt="" coords="205,332,427,373"/>
+<area shape="rect" id="node8" href="$structagg_1_1comp__op__rgba__dst.html" title="agg::comp_op_rgba_dst\l\&lt; ColorT, Order \&gt;" alt="" coords="228,397,404,439"/>
+<area shape="rect" id="node9" href="$structagg_1_1comp__op__rgba__dst__atop.html" title="agg::comp_op_rgba_dst\l_atop\&lt; ColorT, Order \&gt;" alt="" coords="228,463,404,504"/>
+<area shape="rect" id="node10" href="$structagg_1_1comp__op__rgba__dst__in.html" title="agg::comp_op_rgba_dst\l_in\&lt; ColorT, Order \&gt;" alt="" coords="228,528,404,569"/>
+<area shape="rect" id="node11" href="$structagg_1_1comp__op__rgba__dst__out.html" title="agg::comp_op_rgba_dst\l_out\&lt; ColorT, Order \&gt;" alt="" coords="228,593,404,635"/>
+<area shape="rect" id="node12" href="$structagg_1_1comp__op__rgba__dst__over.html" title="agg::comp_op_rgba_dst\l_over\&lt; ColorT, Order \&gt;" alt="" coords="228,659,404,700"/>
+<area shape="rect" id="node13" href="$structagg_1_1comp__op__rgba__exclusion.html" title="agg::comp_op_rgba_exclusion\l\&lt; ColorT, Order \&gt;" alt="" coords="207,724,425,765"/>
+<area shape="rect" id="node14" href="$structagg_1_1comp__op__rgba__hard__light.html" title="agg::comp_op_rgba_hard\l_light\&lt; ColorT, Order \&gt;" alt="" coords="223,789,409,831"/>
+<area shape="rect" id="node15" href="$structagg_1_1comp__op__rgba__lighten.html" title="agg::comp_op_rgba_lighten\l\&lt; ColorT, Order \&gt;" alt="" coords="215,855,417,896"/>
+<area shape="rect" id="node16" href="$structagg_1_1comp__op__rgba__minus.html" title="agg::comp_op_rgba_minus\l\&lt; ColorT, Order \&gt;" alt="" coords="218,920,414,961"/>
+<area shape="rect" id="node17" href="$structagg_1_1comp__op__rgba__multiply.html" title="agg::comp_op_rgba_multiply\l\&lt; ColorT, Order \&gt;" alt="" coords="211,985,421,1027"/>
+<area shape="rect" id="node18" href="$structagg_1_1comp__op__rgba__overlay.html" title="agg::comp_op_rgba_overlay\l\&lt; ColorT, Order \&gt;" alt="" coords="213,1051,419,1092"/>
+<area shape="rect" id="node19" href="$structagg_1_1comp__op__rgba__plus.html" title="agg::comp_op_rgba_plus\l\&lt; ColorT, Order \&gt;" alt="" coords="225,1116,407,1157"/>
+<area shape="rect" id="node20" href="$structagg_1_1comp__op__rgba__screen.html" title="agg::comp_op_rgba_screen\l\&lt; ColorT, Order \&gt;" alt="" coords="217,1181,415,1223"/>
+<area shape="rect" id="node21" href="$structagg_1_1comp__op__rgba__soft__light.html" title="agg::comp_op_rgba_soft\l_light\&lt; ColorT, Order \&gt;" alt="" coords="225,1247,407,1288"/>
+<area shape="rect" id="node22" href="$structagg_1_1comp__op__rgba__src.html" title="agg::comp_op_rgba_src\l\&lt; ColorT, Order \&gt;" alt="" coords="229,1312,403,1353"/>
+<area shape="rect" id="node23" href="$structagg_1_1comp__op__rgba__src__atop.html" title="agg::comp_op_rgba_src\l_atop\&lt; ColorT, Order \&gt;" alt="" coords="229,1377,403,1419"/>
+<area shape="rect" id="node24" href="$structagg_1_1comp__op__rgba__src__in.html" title="agg::comp_op_rgba_src\l_in\&lt; ColorT, Order \&gt;" alt="" coords="229,1443,403,1484"/>
+<area shape="rect" id="node25" href="$structagg_1_1comp__op__rgba__src__out.html" title="agg::comp_op_rgba_src\l_out\&lt; ColorT, Order \&gt;" alt="" coords="229,1508,403,1549"/>
+<area shape="rect" id="node26" href="$structagg_1_1comp__op__rgba__src__over.html" title="agg::comp_op_rgba_src\l_over\&lt; ColorT, Order \&gt;" alt="" coords="229,1573,403,1615"/>
+<area shape="rect" id="node27" href="$structagg_1_1comp__op__rgba__xor.html" title="agg::comp_op_rgba_xor\l\&lt; ColorT, Order \&gt;" alt="" coords="227,1639,405,1680"/>
 </map>

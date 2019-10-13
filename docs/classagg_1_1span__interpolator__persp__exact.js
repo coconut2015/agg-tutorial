@@ -11,13 +11,13 @@ var classagg_1_1span__interpolator__persp__exact =
     [ "span_interpolator_persp_exact", "classagg_1_1span__interpolator__persp__exact.html#a415fda0b4d0f27156c9d2c01b04b83ad", null ],
     [ "span_interpolator_persp_exact", "classagg_1_1span__interpolator__persp__exact.html#a04f55b3110b353ee27ed2a23e9517bd9", null ],
     [ "begin", "classagg_1_1span__interpolator__persp__exact.html#a2968e598e2d17d6f933e3e0bca60c923", null ],
-    [ "coordinates", "classagg_1_1span__interpolator__persp__exact.html#aeffa62c5a5a134e914ee6badc7cc59dd", null ],
-    [ "is_valid", "classagg_1_1span__interpolator__persp__exact.html#a258b773d308cc5fd849a2292f88272a5", null ],
+    [ "coordinates", "classagg_1_1span__interpolator__persp__exact.html#ad3103c4d9266343ef9445e3ef97f5adc", null ],
+    [ "is_valid", "classagg_1_1span__interpolator__persp__exact.html#a88988fa60b8a7eee40e19c21af7bd92b", null ],
     [ "local_scale", "classagg_1_1span__interpolator__persp__exact.html#a736ac7d022b565729b3269b7dcc27f98", null ],
     [ "operator++", "classagg_1_1span__interpolator__persp__exact.html#a4c2e25073f98031a811ef8ad51b87ae4", null ],
     [ "quad_to_quad", "classagg_1_1span__interpolator__persp__exact.html#aa8bb958a062eb1a2e8e9833c52b7eb23", null ],
     [ "quad_to_rect", "classagg_1_1span__interpolator__persp__exact.html#abcc20c3e899df3f8d1791a1701902f3f", null ],
     [ "rect_to_quad", "classagg_1_1span__interpolator__persp__exact.html#a2367f5a937f099b9d55e62a72ecbef9a", null ],
     [ "resynchronize", "classagg_1_1span__interpolator__persp__exact.html#a00b0d4538ac8f23308bd352b64c9031f", null ],
-    [ "transform", "classagg_1_1span__interpolator__persp__exact.html#ace38cb57cb7e2348d02b886732f8ffc7", null ]
+    [ "transform", "classagg_1_1span__interpolator__persp__exact.html#a294c90cb795fdecd7a18b4e658f1f317", null ]
 ];

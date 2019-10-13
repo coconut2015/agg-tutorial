@@ -14,8 +14,8 @@ var classagg_1_1gamma__lut =
     [ "~gamma_lut", "classagg_1_1gamma__lut.html#a9910ed00726012b7775716c376182d8d", null ],
     [ "gamma_lut", "classagg_1_1gamma__lut.html#a4d48b28a2344b31b425479986d9074a2", null ],
     [ "gamma_lut", "classagg_1_1gamma__lut.html#a7efda27148304ddbdbb7387f43954cb0", null ],
-    [ "dir", "classagg_1_1gamma__lut.html#a25ee46ac8d9cb763c2eebb895178670d", null ],
+    [ "dir", "classagg_1_1gamma__lut.html#a418b28a92d2a38fbf9c0c9ea008d3ae7", null ],
     [ "gamma", "classagg_1_1gamma__lut.html#ae3b12cb01c8ed11dd6ad8b812b1d178c", null ],
-    [ "gamma", "classagg_1_1gamma__lut.html#a497933765ab4107cbc2ed5e3aa374315", null ],
-    [ "inv", "classagg_1_1gamma__lut.html#aa0aafc502183fae23a8ea1eb7820b0dd", null ]
+    [ "gamma", "classagg_1_1gamma__lut.html#a99475ddd441e393a706f96684fb2ba19", null ],
+    [ "inv", "classagg_1_1gamma__lut.html#a0817bd0403ec9e486284729daf2aeec1", null ]
 ];

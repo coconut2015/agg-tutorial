@@ -8,10 +8,10 @@ var classagg_1_1scanline32__bin =
     [ "add_cell", "classagg_1_1scanline32__bin.html#ab123fcb71382375083c1c47189b4cc4b", null ],
     [ "add_cells", "classagg_1_1scanline32__bin.html#a945128d55378e5830f89344c61a68154", null ],
     [ "add_span", "classagg_1_1scanline32__bin.html#ae76cb6fb97fd01fc4fca61d3e5a95651", null ],
-    [ "begin", "classagg_1_1scanline32__bin.html#ab9a4d6e19a5d5abb045caa8a976d531d", null ],
+    [ "begin", "classagg_1_1scanline32__bin.html#a43da01e5442362c0432d2d8c863bd080", null ],
     [ "finalize", "classagg_1_1scanline32__bin.html#a8323864917338262730db75e894d9904", null ],
-    [ "num_spans", "classagg_1_1scanline32__bin.html#ac776774e322120948c4fcc9df47acdd9", null ],
+    [ "num_spans", "classagg_1_1scanline32__bin.html#a579a669b3d90a7ff8d6c0c299d4f10bc", null ],
     [ "reset", "classagg_1_1scanline32__bin.html#a1252e776cac77d698d355af09daf924a", null ],
     [ "reset_spans", "classagg_1_1scanline32__bin.html#aecf49624e221a068482183f34ece1204", null ],
-    [ "y", "classagg_1_1scanline32__bin.html#af38aa42dd9c8230a59ebb014bfa9b577", null ]
+    [ "y", "classagg_1_1scanline32__bin.html#a86b65e1ad04077f71af7c383c630f472", null ]
 ];

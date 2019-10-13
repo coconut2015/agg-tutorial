@@ -21,25 +21,25 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classagg_1_1arc.html#ae163c9d150e4ca1a965c66659fdf3a38",
-"classagg_1_1curve3.html#a984291fb7a5387a311161f8f296c781f",
-"classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a0b3798ac6be4a420438db46580421740",
+"classagg_1_1arc.html#ab0c55db797fb44f51bf9cd3778757923",
+"classagg_1_1curve3.html#aaf6f2acd1e8cb4e46e7959092e36393a",
+"classagg_1_1fman_1_1font__engine__freetype__base_1_1loaded__face.html#a2fcd4a9f2461353d1d074f5aabec2fe1",
 "classagg_1_1gradient__image.html",
 "classagg_1_1line__interpolator__aa2.html",
-"classagg_1_1pixfmt__alpha__blend__rgb.html#a585aaed78f9ab81527436bf48f499f9e",
-"classagg_1_1pod__array.html#a325dc36b90a07fe11c6439a0147796f1",
+"classagg_1_1pixfmt__alpha__blend__rgb.html#a54113d374a136d1fa1f5d6f284669c12adae9cb29008219cb253b7a68df0766ef",
+"classagg_1_1pod__array.html#a338680e5c991cd5d8ba2d9d9bfeaa536",
 "classagg_1_1rasterizer__scanline__aa.html#a63d97b79f61079249a92a158355a7e73",
-"classagg_1_1renderer__outline__image.html#a68d5f3131b8ce8adc453a1f422c61dda",
+"classagg_1_1renderer__outline__image.html#a6be45846aac55f1c963fb4565f3de304",
 "classagg_1_1scanline32__u8_1_1iterator.html#a5712c7187b2324f2533d6187f4434dd1",
 "classagg_1_1span__gouraud__rgba.html#aecf4190e171ae0eacfcbcc902fef0a2d",
-"classagg_1_1span__image__resample.html#a53d8ead0b34fff7ff460d47f561b2c6e",
+"classagg_1_1span__image__resample.html#a3ef42afd23f9d96d1dbd2dacb65f9e4c",
 "classagg_1_1span__pattern__rgba.html#af4370796972a665fd227212073afea88",
-"classagg_1_1vertex__block__storage.html#a5c10fc8391267f68c3e13c33cfae3f13",
-"structagg_1_1color__interpolator.html#ab2920d32b60faa005621301f2a46cff4",
-"structagg_1_1conv__stroke.html",
-"structagg_1_1line__parameters.html#ab31eea1163855319ec276d7a9a4186f9",
-"structagg_1_1rgba32.html#a78c10ae9123daeb00a187256af5081bc",
-"structagg_1_1trans__perspective.html#a019ae415dcbbd30c20a27e7f30446fcd"
+"classagg_1_1vertex__block__storage.html#a6b98b771350f5f3f2f1afb89227ce04e",
+"structagg_1_1color__interpolator.html#a69a6c8563e8e5a3dcd1f5ed1a62d5ef4",
+"structagg_1_1conv__smooth__poly1__curve.html#aed4419ea09b5726e3ca0098a2175517b",
+"structagg_1_1line__parameters.html#a93d5d93660e6656fae8509cd90816374",
+"structagg_1_1rgba32.html#a51a0b2bfa336a92fb2545f5f4e863c92",
+"structagg_1_1trans__perspective.html#a005f96142124e1e173ba3690d2c706bd"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

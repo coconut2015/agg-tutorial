@@ -10,3 +10,4 @@ Tutorials {#tutorials}
 @subpage linedrawing3
 @subpage image1
 @subpage image2
+@subpage font1
