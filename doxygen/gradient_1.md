@@ -69,6 +69,10 @@ functions.
 4. agg::gradient_xy
 5. agg::gradient_sqrt_xy
 6. agg::gradient_conic
+7. agg::gradient_circle
+8. agg::gradient_radial
+9. agg::gradient_radial_d
+10. agg::gradient_radial_focus
 
 The second row combines agg::gradient_repeat_adaptor with the gradient
 functions in the first row.

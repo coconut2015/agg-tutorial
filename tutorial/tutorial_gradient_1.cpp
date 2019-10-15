@@ -73,7 +73,7 @@ main (int argc, const char* argv[])
 {
     try
     {
-        const int imageWidth = 600;
+        const int imageWidth = 1000;
         const int imageHeight = 300;
 
         const int pixelSize = PixelFormat::pix_width;
@@ -117,7 +117,7 @@ main (int argc, const char* argv[])
         double x = 0;
         double y = 0;
 
-        // x gradient
+        // gradient_x
         {
             agg::gradient_x gradientFunction;
             agg::trans_affine matrix;
@@ -129,7 +129,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // y gradient
+        // gradient_y
         {
             agg::gradient_y gradientFunction;
             agg::trans_affine matrix;
@@ -141,7 +141,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // diamond gradient
+        // gradient_diamond
         {
             agg::gradient_diamond gradientFunction;
             agg::trans_affine matrix;
@@ -153,7 +153,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // xy gradient
+        // gradient_xy
         {
             agg::gradient_xy gradientFunction;
             agg::trans_affine matrix;
@@ -165,7 +165,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // sqrt xy gradient
+        // gradient_sqrt_xy
         {
             agg::gradient_sqrt_xy gradientFunction;
             agg::trans_affine matrix;
@@ -177,9 +177,57 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // conic gradient
+        // gradient_conic
         {
             agg::gradient_conic gradientFunction;
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gradientFunction,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_circle
+        {
+            agg::gradient_circle gradientFunction;
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gradientFunction,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial
+        {
+            agg::gradient_radial gradientFunction;
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gradientFunction,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial_d
+        {
+            agg::gradient_radial_d gradientFunction;
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gradientFunction,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial_focus
+        {
+            agg::gradient_radial_focus gradientFunction;
             agg::trans_affine matrix;
             matrix.translate(x, y);
             drawGradient (gradientFunction,
@@ -195,7 +243,7 @@ main (int argc, const char* argv[])
         x = 0;
         y = 100;
 
-        // x gradient
+        // gradient_x
         {
             agg::gradient_x gradientFunction;
             agg::gradient_repeat_adaptor<agg::gradient_x> gf2 (gradientFunction);
@@ -208,7 +256,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // y gradient
+        // gradient_y
         {
             agg::gradient_y gradientFunction;
             agg::gradient_repeat_adaptor<agg::gradient_y> gf2 (gradientFunction);
@@ -221,7 +269,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // diamond gradient
+        // gradient_diamond
         {
             agg::gradient_diamond gradientFunction;
             agg::gradient_repeat_adaptor<agg::gradient_diamond> gf2 (gradientFunction);
@@ -234,7 +282,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // xy gradient
+        // gradient_xy
         {
             agg::gradient_xy gradientFunction;
             agg::gradient_repeat_adaptor<agg::gradient_xy> gf2 (gradientFunction);
@@ -247,7 +295,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // sqrt xy gradient
+        // gradient_sqrt_xy
         {
             agg::gradient_sqrt_xy gradientFunction;
             agg::gradient_repeat_adaptor<agg::gradient_sqrt_xy> gf2 (gradientFunction);
@@ -260,10 +308,62 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // conic gradient
+        // gradient_conic
         {
             agg::gradient_conic gradientFunction;
             agg::gradient_repeat_adaptor<agg::gradient_conic> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_circle
+        {
+            agg::gradient_circle gradientFunction;
+            agg::gradient_repeat_adaptor<agg::gradient_circle> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial
+        {
+            agg::gradient_radial gradientFunction;
+            agg::gradient_repeat_adaptor<agg::gradient_radial> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial_d
+        {
+            agg::gradient_radial_d gradientFunction;
+            agg::gradient_repeat_adaptor<agg::gradient_radial_d> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial_focus
+        {
+            agg::gradient_radial_focus gradientFunction;
+            agg::gradient_repeat_adaptor<agg::gradient_radial_focus> gf2 (gradientFunction);
             agg::trans_affine matrix;
             matrix.translate(x, y);
             drawGradient (gf2,
@@ -279,7 +379,7 @@ main (int argc, const char* argv[])
         x = 0;
         y += 100;
 
-        // x gradient
+        // gradient_x
         {
             agg::gradient_x gradientFunction;
             agg::gradient_reflect_adaptor<agg::gradient_x> gf2 (gradientFunction);
@@ -292,7 +392,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // y gradient
+        // gradient_y
         {
             agg::gradient_y gradientFunction;
             agg::gradient_reflect_adaptor<agg::gradient_y> gf2 (gradientFunction);
@@ -305,7 +405,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // diamond gradient
+        // gradient_diamond
         {
             agg::gradient_diamond gradientFunction;
             agg::gradient_reflect_adaptor<agg::gradient_diamond> gf2 (gradientFunction);
@@ -318,7 +418,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // xy gradient
+        // gradient_xy
         {
             agg::gradient_xy gradientFunction;
             agg::gradient_reflect_adaptor<agg::gradient_xy> gf2 (gradientFunction);
@@ -331,7 +431,7 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // sqrt xy gradient
+        // gradient_sqrt_xy
         {
             agg::gradient_sqrt_xy gradientFunction;
             agg::gradient_reflect_adaptor<agg::gradient_sqrt_xy> gf2 (gradientFunction);
@@ -344,10 +444,62 @@ main (int argc, const char* argv[])
             x += 100;
         }
 
-        // conic gradient
+        // gradient_conic
         {
             agg::gradient_conic gradientFunction;
             agg::gradient_reflect_adaptor<agg::gradient_conic> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_circle
+        {
+            agg::gradient_circle gradientFunction;
+            agg::gradient_reflect_adaptor<agg::gradient_circle> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial
+        {
+            agg::gradient_radial gradientFunction;
+            agg::gradient_reflect_adaptor<agg::gradient_radial> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial_d
+        {
+            agg::gradient_radial_d gradientFunction;
+            agg::gradient_reflect_adaptor<agg::gradient_radial_d> gf2 (gradientFunction);
+            agg::trans_affine matrix;
+            matrix.translate(x, y);
+            drawGradient (gf2,
+                          rBase,
+                          path,
+                          matrix);
+            x += 100;
+        }
+
+        // gradient_radial_focus
+        {
+            agg::gradient_radial_focus gradientFunction;
+            agg::gradient_reflect_adaptor<agg::gradient_radial_focus> gf2 (gradientFunction);
             agg::trans_affine matrix;
             matrix.translate(x, y);
             drawGradient (gf2,
