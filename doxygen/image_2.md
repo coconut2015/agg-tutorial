@@ -1,5 +1,5 @@
-Image - Advanced {#image2}
-==========================
+Image - Path and Transformation {#image2}
+=========================================
 
 In \ref image1, the image is drawn in a square, which is not all that
 interesting. This tutorial should demonstrates the potential of AGG's

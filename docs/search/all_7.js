@@ -1,7 +1,7 @@
 var searchData=
 [
   ['image_20_2d_20basics',['Image - Basics',['../image1.html',1,'tutorials']]],
-  ['image_20_2d_20advanced',['Image - Advanced',['../image2.html',1,'tutorials']]],
+  ['image_20_2d_20path_20and_20transformation',['Image - Path and Transformation',['../image2.html',1,'tutorials']]],
   ['image_5faccessor_5fclip',['image_accessor_clip',['../classagg_1_1image__accessor__clip.html',1,'agg']]],
   ['image_5faccessor_5fclone',['image_accessor_clone',['../classagg_1_1image__accessor__clone.html',1,'agg']]],
   ['image_5faccessor_5fno_5fclip',['image_accessor_no_clip',['../classagg_1_1image__accessor__no__clip.html',1,'agg']]],

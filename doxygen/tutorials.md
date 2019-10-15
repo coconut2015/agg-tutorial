@@ -10,5 +10,6 @@ Tutorials {#tutorials}
 @subpage linedrawing3
 @subpage image1
 @subpage image2
+@subpage gradient1
 @subpage font1
 @subpage font2

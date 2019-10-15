@@ -104,10 +104,11 @@ var NAVTREEINDEX14 =
 "dir_4615c54d9933a99ab2f5b17aee559a81.html":[3,0,0,0],
 "exception_8h_source.html":[3,0,1,0],
 "files.html":[3,0],
-"font1.html":[0,9],
-"font2.html":[0,10],
+"font1.html":[0,10],
+"font2.html":[0,11],
 "functions.html":[2,3,0],
 "functions_func.html":[2,3,1],
+"gradient1.html":[0,9],
 "hierarchy.html":[2,2],
 "image1.html":[0,7],
 "image2.html":[0,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "structagg_1_1cell__style__aa.html#ae37b657d8bc1c21592554e5050befb90":[2,0,0,44,8],
 "structagg_1_1cell__style__aa.html#ae3fb16ca86cf93f4696226e402707312":[2,0,0,44,5],
 "structagg_1_1cell__style__aa.html#aee0a2be766b417ae489fa6f41f295821":[2,0,0,44,1],
-"structagg_1_1color__interpolator.html":[2,0,0,70],
-"structagg_1_1color__interpolator.html#a10cf7a1ef52d869eacca522d64cfa116":[2,0,0,70,0]
+"structagg_1_1color__interpolator.html":[2,0,0,70]
 };

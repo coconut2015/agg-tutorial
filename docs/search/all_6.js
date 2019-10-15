@@ -9,6 +9,7 @@ var searchData=
   ['glyph_5fcache',['glyph_cache',['../structagg_1_1glyph__cache.html',1,'agg']]],
   ['glyph_5fraster_5fbin',['glyph_raster_bin',['../classagg_1_1glyph__raster__bin.html',1,'agg']]],
   ['glyph_5frect',['glyph_rect',['../structagg_1_1glyph__raster__bin_1_1glyph__rect.html',1,'agg::glyph_raster_bin']]],
+  ['gradient_20_2d_20gradient_20functions',['Gradient - Gradient Functions',['../gradient1.html',1,'tutorials']]],
   ['gradient_5falpha_5fone_5fmunus_5fx_5fu8',['gradient_alpha_one_munus_x_u8',['../structagg_1_1gradient__alpha__one__munus__x__u8.html',1,'agg']]],
   ['gradient_5falpha_5fx',['gradient_alpha_x',['../structagg_1_1gradient__alpha__x.html',1,'agg']]],
   ['gradient_5falpha_5fx_5fu8',['gradient_alpha_x_u8',['../structagg_1_1gradient__alpha__x__u8.html',1,'agg']]],
