@@ -55,6 +55,8 @@ Donate
 
 If you like this tutorial, consider buying me a coffee.
 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=3VR7Z5XMLMDP4&currency_code=USD&source=url)
+
 \htmlonly
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations" />
