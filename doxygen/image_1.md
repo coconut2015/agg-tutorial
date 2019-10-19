@@ -73,3 +73,7 @@ tutorial_image_1.cpp first generates the following image icon.
 Then it draws this image with various scaling, translation etc.
 
 \image html tutorial_image_1.png
+
+An equivalent SVG is
+
+\image html tutorial_image_1.svg

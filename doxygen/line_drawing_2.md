@@ -22,3 +22,7 @@ Example
 tutorial_linedrawing_2.cpp generates an image containing a caret and a dome.
 
 \image html tutorial_linedrawing_2.png
+
+An equivalent SVG is
+
+\image html tutorial_linedrawing_2.svg

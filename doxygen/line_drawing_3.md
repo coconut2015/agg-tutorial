@@ -11,8 +11,7 @@ to generate a line path from the line path passed in.
 	dashPath.add_dash(1 * strokeWidth, 3 * strokeWidth);
 ```
 
-It takes some efforts to create the correct dash pattern.  Its calculation
-is quite a bit different from SVG's dash.
+It can take some efforts to create the correct dash pattern.
 
 Example
 -------
@@ -21,3 +20,7 @@ tutorial_linedrawing_3.cpp generates an image containing a caret and a dome
 with dash dot lines.
 
 \image html tutorial_linedrawing_3.png
+
+An equivalent SVG is
+
+\image html tutorial_linedrawing_3.svg

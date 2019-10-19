@@ -24,3 +24,7 @@ Then it draws this image three times.
 3. The original image sheared and with whole in the middle.
 
 \image html tutorial_image_2.png
+
+An equivalent SVG is
+
+\image html tutorial_image_2.svg

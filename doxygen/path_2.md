@@ -16,3 +16,7 @@ tutorial_path_2.cpp generates an image containing a red star that was filled
 using even-odd rule.
 
 \image html tutorial_path_2.png
+
+An equivalent SVG is
+
+\image html tutorial_path_2.svg

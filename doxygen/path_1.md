@@ -39,3 +39,7 @@ Example
 tutorial_path_1.cpp generates an image containing a green square and a red star.
 
 \image html tutorial_path_1.png
+
+An equivalent SVG is
+
+\image html tutorial_path_1.svg

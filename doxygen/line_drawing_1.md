@@ -28,3 +28,7 @@ Example
 tutorial_linedrawing_1.cpp generates an image containing a green border and star.
 
 \image html tutorial_linedrawing_1.png
+
+An equivalent SVG is
+
+\image html tutorial_linedrawing_1.svg

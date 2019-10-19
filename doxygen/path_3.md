@@ -25,3 +25,7 @@ Example
 tutorial_path_3.cpp generates an image containing red square with a hole.
 
 \image html tutorial_path_3.png
+
+An equivalent SVG is
+
+\image html tutorial_path_3.svg
