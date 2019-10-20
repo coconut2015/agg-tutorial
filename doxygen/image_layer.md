@@ -6,11 +6,12 @@ together as a single image, the layers other than the bottom most layer
 needs to use a pixel format with the suffix `_pre`, such as agg::pixfmt_rgba32_pre.
 
 So technically, the previous tutorials ( \ref image1 and \ref image2 )
-are not using the correct pixel format for the color wheel image icons.
-We more or less got away since the image icon itself does not have many
-transparent pixels and they are white to make them really noticeable.
+were not using the correct pixel format for the color wheel image icons.
+We got away since the image icon itself does not have many transparent pixels
+and they are white.  So the difference was not noticeable.
 
-The difference can be seen in the following example.
+However, in some situations, such difference can have major impacts.  See
+the following example.
 
 Example
 -------

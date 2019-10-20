@@ -84,8 +84,8 @@ $(document).ready(function(){initNavTree('imageLayer.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>If it is desired to draw images as separate layers, and then compose them together as a single image, the layers other than the bottom most layer needs to use a pixel format with the suffix <code>_pre</code>, such as agg::pixfmt_rgba32_pre.</p>
-<p>So technically, the previous tutorials ( <a class="el" href="image1.html">Image - Basics</a> and <a class="el" href="image2.html">Image - Path and Transformation</a> ) are not using the correct pixel format for the color wheel image icons. We more or less got away since the image icon itself does not have many transparent pixels and they are white to make them really noticeable.</p>
-<p>The difference can be seen in the following example.</p>
+<p>So technically, the previous tutorials ( <a class="el" href="image1.html">Image - Basics</a> and <a class="el" href="image2.html">Image - Path and Transformation</a> ) were not using the correct pixel format for the color wheel image icons. We got away since the image icon itself does not have many transparent pixels and they are white. So the difference was not noticeable.</p>
+<p>However, in some situations, such difference can have major impacts. See the following example.</p>
 <h2>Example </h2>
 <p><a class="el" href="tutorial__layer_8cpp_source.html">tutorial_layer.cpp</a> tests the effect of drawing different image types on the bottom layer.</p>
 <p>The top left green square is drawn directly on top the bottom layer.</p>
