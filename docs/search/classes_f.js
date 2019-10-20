@@ -14,6 +14,5 @@ var searchData=
   ['trans_5fsingle_5fpath',['trans_single_path',['../classagg_1_1trans__single__path.html',1,'agg']]],
   ['trans_5fviewport',['trans_viewport',['../classagg_1_1trans__viewport.html',1,'agg']]],
   ['trans_5fwarp_5fmagnifier',['trans_warp_magnifier',['../classagg_1_1trans__warp__magnifier.html',1,'agg']]],
-  ['transformpath',['TransformPath',['../classTransformPath.html',1,'']]],
   ['tutorialexception',['TutorialException',['../classTutorialException.html',1,'']]]
 ];

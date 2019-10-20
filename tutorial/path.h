@@ -136,39 +136,4 @@ private:
     int m_pos;
 };
 
-/**
- * A wrapper that calculates the new path point based on the transformation
- * matrix.
- */
-template<class Path>
-class TransformPath
-{
-public:
-    TransformPath(Path& path, const agg::trans_affine& matrix)
-    : m_path (path),
-      m_matrix (matrix)
-    {
-    }
-
-    void rewind (int path = 0)
-    {
-        m_path.rewind (path);
-    }
-
-    unsigned vertex(double* x, double* y)
-    {
-        unsigned cmd = m_path.vertex (x, y);
-        if (cmd != agg::path_cmd_stop)
-        {
-            m_matrix.transform(x, y);
-        }
-        return cmd;
-    }
-
-private:
-    Path    m_path;
-    agg::trans_affine   m_matrix;
-};
-
-
 #endif  /* TUTORIAL_PATH_H */
