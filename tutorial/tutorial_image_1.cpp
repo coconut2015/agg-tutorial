@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 #include <agg_conv_stroke.h>
+#include <agg_conv_transform.h>
 #include <agg_ellipse.h>
 #include <agg_image_accessors.h>
 #include <agg_pixfmt_rgba.h>
@@ -157,7 +158,7 @@ main (int argc, const char* argv[])
                 agg::trans_affine matrix;
                 matrix.rotate( PI * 2 * i / numRotations);
                 matrix.translate(100, 100);
-                TransformPath<SimplePath> tp (path, matrix);
+                agg::conv_transform<SimplePath> tp (path, matrix);
 
                 ras.reset();
                 ras.add_path(tp);

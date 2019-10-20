@@ -11,7 +11,11 @@ to generate a line path from the line path passed in.
 	dashPath.add_dash(1 * strokeWidth, 3 * strokeWidth);
 ```
 
-It can take some efforts to create the correct dash pattern.
+It can take some efforts to create the correct dash pattern since its
+calculation can be slightly off comparing to SVG's.
+
+In general, to generate almost exact equivalent images to  SVG, use
+agg::butt_cap instead of agg::square_cap.
 
 Example
 -------
@@ -21,6 +25,7 @@ with dash dot lines.
 
 \image html tutorial_linedrawing_3.png
 
-An equivalent SVG is
+An equivalent SVG is the following.  However, notice the dash locations
+for the curves are somewhat different.
 
 \image html tutorial_linedrawing_3.svg

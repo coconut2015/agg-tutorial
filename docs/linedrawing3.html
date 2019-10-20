@@ -84,13 +84,14 @@ $(document).ready(function(){initNavTree('linedrawing3.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Much like curved lines, the way dashed line works is by having <a class="el" href="structagg_1_1conv__dash.html">agg::conv_dash</a> to generate a line path from the line path passed in.</p>
-<div class="fragment"><div class="line"><a class="code" href="structagg_1_1conv__dash.html">agg::conv_dash&lt;CmdVertexPath&gt;</a> dashPath (path);</div><div class="line"><span class="comment">// specify dash pattern</span></div><div class="line">dashPath.add_dash(3 * strokeWidth, 3 * strokeWidth);</div><div class="line">dashPath.add_dash(1 * strokeWidth, 3 * strokeWidth);</div></div><!-- fragment --><p>It can take some efforts to create the correct dash pattern.</p>
+<div class="fragment"><div class="line"><a class="code" href="structagg_1_1conv__dash.html">agg::conv_dash&lt;CmdVertexPath&gt;</a> dashPath (path);</div><div class="line"><span class="comment">// specify dash pattern</span></div><div class="line">dashPath.add_dash(3 * strokeWidth, 3 * strokeWidth);</div><div class="line">dashPath.add_dash(1 * strokeWidth, 3 * strokeWidth);</div></div><!-- fragment --><p>It can take some efforts to create the correct dash pattern since its calculation can be slightly off comparing to SVG's.</p>
+<p>In general, to generate almost exact equivalent images to SVG, use agg::butt_cap instead of agg::square_cap.</p>
 <h2>Example </h2>
 <p><a class="el" href="tutorial__linedrawing__3_8cpp_source.html">tutorial_linedrawing_3.cpp</a> generates an image containing a caret and a dome with dash dot lines.</p>
 <div class="image">
 <img src="tutorial_linedrawing_3.png" alt="tutorial_linedrawing_3.png"/>
 </div>
-<p>An equivalent SVG is</p>
+<p>An equivalent SVG is the following. However, notice the dash locations for the curves are somewhat different.</p>
 <div class="image">
 <object type="image/svg+xml" data="tutorial_linedrawing_3.svg">tutorial_linedrawing_3.svg</object>
 </div>

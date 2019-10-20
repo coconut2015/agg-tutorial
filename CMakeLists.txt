@@ -66,7 +66,7 @@ endif(BUILD_DOC)
 include(agg)
 
 include_directories(
-	include/
+	tutorial
 	agg-2.4/include
 )
 
@@ -137,3 +137,8 @@ add_executable(tutorial_gradient_1
 	tutorial/tutorial_gradient_1.cpp)
 add_test(NAME tutorial_gradient_1
     COMMAND tutorial_gradient_1  ../images)
+
+add_executable(reference_linecap
+	reference/reference_linecap.cpp)
+add_test(NAME reference_linecap
+    COMMAND reference_linecap  ../images)

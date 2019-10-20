@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 #include <agg_conv_stroke.h>
+#include <agg_conv_transform.h>
 #include <agg_ellipse.h>
 #include <agg_image_accessors.h>
 #include <agg_path_storage.h>
@@ -141,7 +142,7 @@ main (int argc, const char* argv[])
                 agg::trans_affine matrix;
                 matrix.rotate( PI * 2 * i / numRotations);
                 matrix.translate(100, 100);
-                TransformPath<SimplePath> tp (path, matrix);
+                agg::conv_transform<SimplePath> tp (path, matrix);
 
                 ras.reset();
                 ras.add_path(tp);
@@ -221,7 +222,7 @@ main (int argc, const char* argv[])
             {
                 agg::trans_affine matrix;
                 matrix.translate(200, 0);
-                TransformPath<agg::path_storage> tp (path, matrix);
+                agg::conv_transform<agg::path_storage> tp (path, matrix);
                 drawImage (rBase, iconRBase, matrix, tp);
             }
 
@@ -230,7 +231,7 @@ main (int argc, const char* argv[])
                 double shx = -2.0;
                 agg::trans_affine matrix(1.0, 0.0, shx, 1.0, 0.0, 0.0);
                 matrix.translate(700, 0);
-                TransformPath<agg::path_storage> tp (path, matrix);
+                agg::conv_transform<agg::path_storage> tp (path, matrix);
                 drawImage (rBase, iconRBase, matrix, tp);
             }
         }

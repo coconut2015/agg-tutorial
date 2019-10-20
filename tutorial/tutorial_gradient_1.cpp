@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+#include <agg_conv_transform.h>
 #include <agg_gamma_functions.h>
 #include <agg_gamma_lut.h>
 #include <agg_gradient_lut.h>
@@ -36,7 +37,7 @@ void
 drawGradient (GradientFunctionType& gradientFunction,
               RendererBaseType& rBase,
               SimplePath& path,
-              const agg::trans_affine& matrix)
+              agg::trans_affine& matrix)
 {
     typedef agg::gradient_linear_color<agg::rgba8> ColorFunctionType;
 
@@ -63,7 +64,7 @@ drawGradient (GradientFunctionType& gradientFunction,
 
     ras.auto_close(false);
     ras.reset ();
-    TransformPath<SimplePath> tp (path, matrix);
+    agg::conv_transform<SimplePath> tp (path, matrix);
     ras.add_path(tp);
     agg::render_scanlines_aa(ras, scanline, rBase, sa, sg);
 }

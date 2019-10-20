@@ -85,7 +85,7 @@ main (int argc, const char* argv[])
             agg::conv_stroke<agg::conv_dash<CmdVertexPath>> strokePath (dashPath);
 
             strokePath.width(strokeWidth);
-            strokePath.line_cap(agg::square_cap);
+            strokePath.line_cap(agg::butt_cap);
             strokePath.line_join(agg::miter_join);
             strokePath.miter_limit(strokeWidth);
 
