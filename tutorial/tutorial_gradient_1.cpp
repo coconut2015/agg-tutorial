@@ -83,7 +83,6 @@ main (int argc, const char* argv[])
         PixelFormat             pixFmt;
         RendererBaseType        rBase;
 
-        // Allocate a 100 x 100 rgba buffer
         unsigned char *imageBuffer = new unsigned char[imageWidth * imageHeight * pixelSize];
 
         // Hook everything up

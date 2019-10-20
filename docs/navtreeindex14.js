@@ -100,14 +100,15 @@ var NAVTREEINDEX14 =
 "dir_4615c54d9933a99ab2f5b17aee559a81.html":[3,0,0,0],
 "exception_8h_source.html":[3,0,1,0],
 "files.html":[3,0],
-"font1.html":[0,10],
-"font2.html":[0,11],
+"font1.html":[0,11],
+"font2.html":[0,12],
 "functions.html":[2,3,0],
 "functions_func.html":[2,3,1],
-"gradient1.html":[0,9],
+"gradient1.html":[0,10],
 "hierarchy.html":[2,2],
 "image1.html":[0,7],
 "image2.html":[0,8],
+"imageLayer.html":[0,9],
 "index.html":[],
 "linedrawing1.html":[0,4],
 "linedrawing2.html":[0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "structagg_1_1color__interpolator.html":[2,0,0,70],
 "structagg_1_1color__interpolator.html#a10cf7a1ef52d869eacca522d64cfa116":[2,0,0,70,0],
 "structagg_1_1color__interpolator.html#a49a762ebe891aa62e9afd23fe7cf1907":[2,0,0,70,1],
-"structagg_1_1color__interpolator.html#a69a6c8563e8e5a3dcd1f5ed1a62d5ef4":[2,0,0,70,2],
-"structagg_1_1color__interpolator.html#ab2920d32b60faa005621301f2a46cff4":[2,0,0,70,3]
+"structagg_1_1color__interpolator.html#a69a6c8563e8e5a3dcd1f5ed1a62d5ef4":[2,0,0,70,2]
 };

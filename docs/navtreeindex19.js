@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"structagg_1_1trans__perspective.html#a019ae415dcbbd30c20a27e7f30446fcd":[2,0,0,443,35],
 "structagg_1_1trans__perspective.html#a030b79cacd5321bb774e62331b7afb54":[2,0,0,443,38],
 "structagg_1_1trans__perspective.html#a043a5c309010960286cf46e3dbb50601":[2,0,0,443,60],
 "structagg_1_1trans__perspective.html#a0997eaf211f362cac559ff6eae1a8f93":[2,0,0,443,48],
@@ -99,13 +100,14 @@ var NAVTREEINDEX19 =
 "tutorial__gradient__1_8cpp_source.html":[3,0,1,4],
 "tutorial__image__1_8cpp_source.html":[3,0,1,5],
 "tutorial__image__2_8cpp_source.html":[3,0,1,6],
-"tutorial__linedrawing__1_8cpp_source.html":[3,0,1,7],
-"tutorial__linedrawing__2_8cpp_source.html":[3,0,1,8],
-"tutorial__linedrawing__3_8cpp_source.html":[3,0,1,9],
-"tutorial__path__1_8cpp_source.html":[3,0,1,10],
-"tutorial__path__2_8cpp_source.html":[3,0,1,11],
-"tutorial__path__3_8cpp_source.html":[3,0,1,12],
-"tutorial__rendererbase_8cpp_source.html":[3,0,1,13],
+"tutorial__layer_8cpp_source.html":[3,0,1,7],
+"tutorial__linedrawing__1_8cpp_source.html":[3,0,1,8],
+"tutorial__linedrawing__2_8cpp_source.html":[3,0,1,9],
+"tutorial__linedrawing__3_8cpp_source.html":[3,0,1,10],
+"tutorial__path__1_8cpp_source.html":[3,0,1,11],
+"tutorial__path__2_8cpp_source.html":[3,0,1,12],
+"tutorial__path__3_8cpp_source.html":[3,0,1,13],
+"tutorial__rendererbase_8cpp_source.html":[3,0,1,14],
 "tutorials.html":[0],
-"writepng_8h_source.html":[3,0,1,14]
+"writepng_8h_source.html":[3,0,1,15]
 };

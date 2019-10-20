@@ -90,7 +90,7 @@ main (int argc, const char* argv[])
         RendererBaseType        iconRBase;
 
         const double PI = 3.14159265358979;
-        // Allocate a 50 x 50 rgba buffer
+
         unsigned char *iconImageBuffer = new unsigned char[iconWidth * iconHeight * pixelSize];
 
         /////////////////////////////////////////////////////

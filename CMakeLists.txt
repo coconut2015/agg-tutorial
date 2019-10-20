@@ -75,7 +75,7 @@ link_libraries(
 	agg
 )
 
-# -- tests -------------------------------------------------------------------
+# -- tutorials ---------------------------------------------------------------
 
 # .. tutorial_rendererbase
 add_executable(tutorial_rendererbase
@@ -137,6 +137,13 @@ add_executable(tutorial_gradient_1
 	tutorial/tutorial_gradient_1.cpp)
 add_test(NAME tutorial_gradient_1
     COMMAND tutorial_gradient_1  ../images)
+
+add_executable(tutorial_layer
+	tutorial/tutorial_layer.cpp)
+add_test(NAME tutorial_layer
+    COMMAND tutorial_layer  ../images)
+
+# -- references --------------------------------------------------------------
 
 add_executable(reference_linecap
 	reference/reference_linecap.cpp)

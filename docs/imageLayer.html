@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Anti-Grain Geometry Tutorial: Path - Fill</title>
+<title>Anti-Grain Geometry Tutorial: Image - Layers</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('path1.html','');});
+$(document).ready(function(){initNavTree('imageLayer.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -80,30 +80,20 @@ $(document).ready(function(){initNavTree('path1.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Path - Fill </div>  </div>
+<div class="title">Image - Layers </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>AGG does most of its operations based on paths. A path object needs to have the following two functions implemented.</p>
-<div class="fragment"><div class="line"><span class="keywordtype">void</span> rewind (<span class="keywordtype">int</span> path = 0);</div><div class="line"><span class="keywordtype">unsigned</span> vertex(<span class="keywordtype">double</span>* x, <span class="keywordtype">double</span>* y);</div></div><!-- fragment --><p>See <a class="el" href="classSimplePath.html">SimplePath</a> for an example.</p>
-<p>Additionally, two objects are needed. These two objects can be re-used.</p>
-<ul>
-<li><a class="el" href="classagg_1_1rasterizer__scanline__aa.html">agg::rasterizer_scanline_aa</a> is used to store the paths passed in.</li>
-<li><a class="el" href="classagg_1_1scanline__p8.html">agg::scanline_p8</a> is used to store intermediate calculation results.</li>
-</ul>
-<p>Finally, agg::render_scanlines_aa_solid is used to render the paths using scanline algorithm.</p>
-<div class="fragment"><div class="line"><a class="code" href="classagg_1_1rasterizer__scanline__aa.html">agg::rasterizer_scanline_aa&lt;&gt;</a> ras;</div><div class="line"><a class="code" href="classagg_1_1scanline__p8.html">agg::scanline_p8</a> scanline;</div><div class="line"></div><div class="line">ras.reset();</div><div class="line">ras.add_path(path);</div><div class="line"></div><div class="line">agg::render_scanlines_aa_solid(ras, scanline, rBase, greenColor);</div></div><!-- fragment --><p>The above for anti-aliased drawing. If you want to use non-anti-aliased drawing, use the following instead.</p>
-<ul>
-<li>Class <a class="el" href="classagg_1_1scanline__bin.html">agg::scanline_bin</a></li>
-<li>Function agg::render_scanlines_bin_solid</li>
-</ul>
+<div class="textblock"><p>If it is desired to draw images as separate layers, and then compose them together as a single image, the layers other than the bottom most layer needs to use a pixel format with the suffix <code>_pre</code>, such as agg::pixfmt_rgba32_pre.</p>
+<p>So technically, the previous tutorials ( <a class="el" href="image1.html">Image - Basics</a> and <a class="el" href="image2.html">Image - Path and Transformation</a> ) are not using the correct pixel format for the color wheel image icons. We more or less got away since the image icon itself does not have many transparent pixels and they are white to make them really noticeable.</p>
+<p>The difference can be seen in the following example.</p>
 <h2>Example </h2>
-<p><a class="el" href="tutorial__path__1_8cpp_source.html">tutorial_path_1.cpp</a> generates an image containing a green square and a red star.</p>
+<p><a class="el" href="tutorial__layer_8cpp_source.html">tutorial_layer.cpp</a> tests the effect of drawing different image types on the bottom layer.</p>
+<p>The top left green square is drawn directly on top the bottom layer.</p>
+<p>The top right green square is drawn on a layer with agg::pixfmt_rgba32 pixel format, which is then drawn on the bottom layer.</p>
+<p>The bottom left green square is drawn on a layer with agg::pixfmt_rgba32_pre pixel format, which is then drawn on the bottom layer.</p>
+<p>Clearly, the top right green square color is incorrect.</p>
 <div class="image">
-<img src="tutorial_path_1.png" alt="tutorial_path_1.png"/>
-</div>
-<p>An equivalent SVG is</p>
-<div class="image">
-<object type="image/svg+xml" data="tutorial_path_1.svg">tutorial_path_1.svg</object>
+<img src="tutorial_layer.png" alt="tutorial_layer.png"/>
 </div>
  </div></div><!-- contents -->
 </div><!-- doc-content -->

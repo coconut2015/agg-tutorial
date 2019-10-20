@@ -9,7 +9,7 @@ glyphs.  It can be a bit tricky to get both FreeType and the right libpng instal
 You may have to either upgrade the system or do custom compilation.
 
 Loading a font is straight forward.  See the code below.  It should be noted that
-different Linux systems organize truetype fonts differently.  For this tutorial,
+different Linux systems organize TrueType fonts differently.  For this tutorial,
 we will just use DejaVuSerif.ttf in fonts/ directory.
 
 ```cpp

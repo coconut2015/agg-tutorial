@@ -1,7 +1,7 @@
 Line Drawing - Solid Line {#linedrawing1}
 =========================================
 
-AGG does not really have a line drawing routine in the tradional 2D graphics
+AGG does not really have a line drawing routine in the traditional 2D graphics
 API sense.  Instead, it generates polygons from the line paths and strokes.
 Then fill the polygons.
 

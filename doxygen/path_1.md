@@ -13,7 +13,7 @@ See SimplePath for an example.
 Additionally, two objects are needed.  These two objects can be re-used.
 
 * agg::rasterizer_scanline_aa is used to store the paths passed in.
-* agg::scanline_p8 is used to store intermediate calcuation results.
+* agg::scanline_p8 is used to store intermediate calculation results.
 
 Finally, agg::render_scanlines_aa_solid is used to render the paths using scanline algorithm.
 
@@ -27,7 +27,7 @@ Finally, agg::render_scanlines_aa_solid is used to render the paths using scanli
 	agg::render_scanlines_aa_solid(ras, scanline, rBase, greenColor);
 ```
 
-The above for antialiased drawing.  If you want to use non-antialiased
+The above for anti-aliased drawing.  If you want to use non-anti-aliased
 drawing, use the following instead.
 
 * Class agg::scanline_bin
