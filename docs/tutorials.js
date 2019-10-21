@@ -7,6 +7,7 @@ var tutorials =
     [ "Line Drawing - Solid Line", "linedrawing1.html", null ],
     [ "Line Drawing - Curved Line", "linedrawing2.html", null ],
     [ "Line Drawing - Dashed Line", "linedrawing3.html", null ],
+    [ "Line Drawing - Snapping", "linedrawing4.html", null ],
     [ "Image - Basics", "image1.html", null ],
     [ "Image - Path and Transformation", "image2.html", null ],
     [ "Image - Layers", "imageLayer.html", null ],

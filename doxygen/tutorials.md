@@ -8,6 +8,7 @@ Tutorials {#tutorials}
 @subpage linedrawing1
 @subpage linedrawing2
 @subpage linedrawing3
+@subpage linedrawing4
 @subpage image1
 @subpage image2
 @subpage imageLayer
