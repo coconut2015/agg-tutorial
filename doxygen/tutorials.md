@@ -12,6 +12,7 @@ Tutorials {#tutorials}
 @subpage image1
 @subpage image2
 @subpage imageLayer
+@subpage imageBlur
 @subpage gradient1
 @subpage font1
 @subpage font2

@@ -148,6 +148,11 @@ add_executable(tutorial_layer
 add_test(NAME tutorial_layer
     COMMAND tutorial_layer  ../images)
 
+add_executable(tutorial_blur
+	tutorial/tutorial_blur.cpp)
+add_test(NAME tutorial_blur
+    COMMAND tutorial_blur  ../images)
+
 # -- references --------------------------------------------------------------
 
 add_executable(reference_linecap

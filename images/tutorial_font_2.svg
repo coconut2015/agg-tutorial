@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="550" height="300">
+	<defs>
+		<g id="lines">
+			<path d="M0,5 L550,5" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,15 L550,15" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,25 L550,25" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,35 L550,35" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,45 L550,45" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,55 L550,55" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,65 L550,65" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,75 L550,75" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,85 L550,85" stroke="#0000ff" stroke-width="5"/>
+			<path d="M0,95 L550,95" stroke="#0000ff" stroke-width="5"/>
+		</g>
+		<text id="hello" x="10" y="80" font="DejaVu Serif" font-size="80" fill="black">Hello World</text>
+	</defs>
+	<g>
+		<use xlink:href="#lines"/>
+	</g>
+	<g transform="translate(0,100)">
+		<clipPath id="textClip">
+			<use xlink:href="#hello"/>
+		</clipPath>
+		<use xlink:href="#lines" clip-path="url(#textClip)"/>
+	</g>
+	<g transform="translate(0,200)">
+		<mask id="textMask">
+			<rect x="0" y="0" width="550" height="100" fill="white"/>
+			<use xlink:href="#hello"/>
+		</mask>
+		<use xlink:href="#lines" mask="url(#textMask)"/>
+	</g>
+</svg>

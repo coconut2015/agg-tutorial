@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Anti-Grain Geometry Tutorial: Member List</title>
+<title>Anti-Grain Geometry Tutorial: Image - Blur</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('classTransformPath.html','');});
+$(document).ready(function(){initNavTree('imageBlur.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -80,20 +80,33 @@ $(document).ready(function(){initNavTree('classTransformPath.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">TransformPath&lt; Path &gt; Member List</div>  </div>
+<div class="title">Image - Blur </div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>This is the complete list of members for <a class="el" href="classTransformPath.html">TransformPath&lt; Path &gt;</a>, including all inherited members.</p>
-<table class="directory">
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>rewind</b>(int path=0) (defined in <a class="el" href="classTransformPath.html">TransformPath&lt; Path &gt;</a>)</td><td class="entry"><a class="el" href="classTransformPath.html">TransformPath&lt; Path &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>TransformPath</b>(Path &amp;path, const agg::trans_affine &amp;matrix) (defined in <a class="el" href="classTransformPath.html">TransformPath&lt; Path &gt;</a>)</td><td class="entry"><a class="el" href="classTransformPath.html">TransformPath&lt; Path &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>vertex</b>(double *x, double *y) (defined in <a class="el" href="classTransformPath.html">TransformPath&lt; Path &gt;</a>)</td><td class="entry"><a class="el" href="classTransformPath.html">TransformPath&lt; Path &gt;</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-</table></div><!-- contents -->
+<div class="textblock"><p>There are two blur classes: <a class="el" href="classagg_1_1stack__blur.html">agg::stack_blur</a> and <a class="el" href="classagg_1_1recursive__blur.html">agg::recursive_blur</a>. <a class="el" href="classagg_1_1stack__blur.html">agg::stack_blur</a> is 3x-5x faster and has a bit limitations, while <a class="el" href="classagg_1_1recursive__blur.html">agg::recursive_blur</a> is a true Gaussian blur. The interface is the same for these two blurs.</p>
+<div class="fragment"><div class="line"><a class="code" href="classagg_1_1stack__blur.html">agg::stack_blur&lt;agg::rgba8, agg::stack_blur_calc_rgba&lt;&gt;</a> &gt; blur;</div><div class="line">blur.blur (pixFmt, radius);</div></div><!-- fragment --><div class="fragment"><div class="line"><a class="code" href="classagg_1_1recursive__blur.html">agg::recursive_blur&lt;agg::rgba8, agg::recursive_blur_calc_rgba&lt;&gt;</a> &gt; blur;</div><div class="line">blur.blur (pixFmt, radius);</div></div><!-- fragment --><p>Note that the entire pixFmt are being blurred. However, it is pretty straightforward to limit blurring to a specifc region of pixFmt.</p>
+<div class="fragment"><div class="line"><span class="keyword">template</span>&lt;<span class="keyword">class</span> PixFormat, <span class="keyword">class</span> BlurType&gt;</div><div class="line"><span class="keywordtype">void</span></div><div class="line">blurImage(PixFormat&amp; pixFmt, <span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height, BlurType&amp; blur, <span class="keywordtype">double</span> radius)</div><div class="line">{</div><div class="line">    <a class="code" href="classagg_1_1row__accessor.html">agg::rendering_buffer</a>   renBuffer;</div><div class="line">    PixFormat subPixFmt (renBuffer);</div><div class="line">    subPixFmt.attach (pixFmt, x, y , x + width - 1, y + height - 1);</div><div class="line">    blur.blur (subPixFmt, radius);</div><div class="line">}</div></div><!-- fragment --><h2>Example </h2>
+<p><a class="el" href="tutorial__blur_8cpp_source.html">tutorial_blur.cpp</a> does the following.</p>
+<ol type="1">
+<li>Just the image icon by itself.</li>
+<li>The image icon blurred using <a class="el" href="classagg_1_1stack__blur.html">agg::stack_blur</a></li>
+<li>The image icon blurred using <a class="el" href="classagg_1_1recursive__blur.html">agg::recursive_blur</a></li>
+<li>The image icon blurred using <a class="el" href="classagg_1_1recursive__blur.html">agg::recursive_blur</a> with dx = 5 and dy = 5. Then original image icon was drawn on top. Effectively it creates a shadow effect.</li>
+</ol>
+<p>The resulting image is the following.</p>
+<div class="image">
+<img src="tutorial_blur.png" alt="tutorial_blur.png"/>
+</div>
+<p>An equivalent SVG is</p>
+<div class="image">
+<object type="image/svg+xml" data="tutorial_blur.svg">tutorial_blur.svg</object>
+</div>
+ </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="tutorials.html">Tutorials</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

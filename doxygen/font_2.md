@@ -17,3 +17,8 @@ Example
 tutorial_font_2.cpp uses font path as clip region to draw images.
 
 \image html tutorial_font_2.png
+
+A more or less equivalent SVG is the following.  SVG has limited
+clip path manipulation, so `mask` has to be used.
+
+\image html tutorial_font_2.svg
