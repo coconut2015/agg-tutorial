@@ -22,4 +22,4 @@ Solution
 
 For thin lines (usually line width thinner than 5) where such effect
 is quite prounced, shift x / y position slightly so that after
-subtracking (linewidth / 2), x / y is an integer.
+subtracting (linewidth / 2), x / y is an integer.
