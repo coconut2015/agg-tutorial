@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Anti-Grain Geometry Tutorial: Tutorials</title>
+<title>Anti-Grain Geometry Tutorial: Image - Alpha Mask</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -61,7 +61,7 @@ $(function() {
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('tutorials.html','');});
+$(document).ready(function(){initNavTree('imageAlphaMask.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -80,15 +80,33 @@ $(document).ready(function(){initNavTree('tutorials.html','');});
 
 <div class="header">
   <div class="headertitle">
-<div class="title">Tutorials </div>  </div>
+<div class="title">Image - Alpha Mask </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="el" href="rendererbase.html">Renderer Base</a> <a class="el" href="path1.html">Path - Fill</a> <a class="el" href="path2.html">Path - Fill Even-Odd</a> <a class="el" href="path3.html">Path - Polygon with Holes</a> <a class="el" href="linedrawing1.html">Line Drawing - Solid Line</a> <a class="el" href="linedrawing2.html">Line Drawing - Curved Line</a> <a class="el" href="linedrawing3.html">Line Drawing - Dashed Line</a> <a class="el" href="linedrawing4.html">Line Drawing - Snapping</a> <a class="el" href="image1.html">Image - Basics</a> <a class="el" href="image2.html">Image - Path and Transformation</a> <a class="el" href="imageLayer.html">Image - Layers</a> <a class="el" href="imageBlur.html">Image - Blur</a> <a class="el" href="imageAlphaMask.html">Image - Alpha Mask</a> <a class="el" href="gradient1.html">Gradient - Gradient Functions</a> <a class="el" href="font1.html">Font - Basics</a> <a class="el" href="font2.html">Font - Advanced</a> </p>
-</div></div><!-- contents -->
+<div class="textblock"><p>You can create an alpha mask for a particular channel of an image. In the following case, agg::alpha_mask_rgba32a uses the alpha channel. It is possible to use agg::alpha_mask_rgba32r for red channel, and so on.</p>
+<div class="fragment"><div class="line"><span class="keyword">typedef</span> <a class="code" href="classagg_1_1alpha__mask__u8.html">agg::alpha_mask_rgba32a</a> AlphaMaskType;</div><div class="line">AlphaMaskType alphaMask (iconRenderBuffer);</div></div><!-- fragment --><p> To hook things up, one basically create an alpha mask pixel format (AMPixelFormat below) that wraps around the original pixel format with the alpha mask.</p>
+<div class="fragment"><div class="line"><span class="keyword">typedef</span> <a class="code" href="classagg_1_1pixfmt__amask__adaptor.html">agg::pixfmt_amask_adaptor&lt;PixelFormat, AlphaMaskType&gt;</a> AMPixelFormat;</div><div class="line"><span class="keyword">typedef</span> <a class="code" href="classagg_1_1renderer__base.html">agg::renderer_base&lt;AMPixelFormat&gt;</a> AMRendererBaseType;</div><div class="line"></div><div class="line">AMPixelFormat amPixFmt (pixFmt, alphaMask);</div><div class="line">AMRendererBaseType amRBase (amPixFmt);</div><div class="line"><a class="code" href="classagg_1_1renderer__scanline__aa__solid.html">agg::renderer_scanline_aa_solid&lt;AMRendererBaseType&gt;</a> amrs (amRBase);</div><div class="line">amrs.color(color);</div><div class="line"></div><div class="line"><a class="code" href="classagg_1_1rasterizer__scanline__aa.html">agg::rasterizer_scanline_aa&lt;&gt;</a> ras;</div><div class="line">ras.auto_close(<span class="keyword">false</span>);</div><div class="line"><a class="code" href="classagg_1_1scanline__p8.html">agg::scanline_p8</a> scanline;</div><div class="line"></div><div class="line">ras.reset();</div><div class="line">ras.add_path(path);</div><div class="line">agg::render_scanlines(ras, scanline, amrs);</div></div><!-- fragment --><h2>Example </h2>
+<p>tutorial_alpha.cpp does the following.</p>
+<ol type="1">
+<li>Just the image icon by itself.</li>
+<li>The image icon's alpha channel being drawn as gray using the alpha channel.</li>
+<li>The image icon's alpha channel being drawn as gray using the alpha channel and then blurred.</li>
+<li>The image icon's alpha channel being drawn as gray using the alpha channel at an dx = 5, dy = 5 offset, then blurred. Then the original image icon was drawn on top. Effectively it creates a gray shadow effect.</li>
+</ol>
+<p>The resulting image is the following.</p>
+<div class="image">
+<img src="tutorial_alphamask.png" alt="tutorial_alphamask.png"/>
+</div>
+<p>An equivalent SVG is</p>
+<div class="image">
+<object type="image/svg+xml" data="tutorial_alphamask.svg">tutorial_alphamask.svg</object>
+</div>
+ </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="tutorials.html">Tutorials</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>

@@ -14,7 +14,7 @@
 			<path d="M0,85 L550,85" stroke="#0000ff" stroke-width="5"/>
 			<path d="M0,95 L550,95" stroke="#0000ff" stroke-width="5"/>
 		</g>
-		<text id="hello" x="10" y="80" font="DejaVu Serif" font-size="80" fill="black">Hello World</text>
+		<text id="hello" x="10" y="80" font="DejaVu Serif" font-size="80" fill="black">Hello World!</text>
 	</defs>
 	<g>
 		<use xlink:href="#lines"/>

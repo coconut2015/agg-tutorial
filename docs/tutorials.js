@@ -12,6 +12,7 @@ var tutorials =
     [ "Image - Path and Transformation", "image2.html", null ],
     [ "Image - Layers", "imageLayer.html", null ],
     [ "Image - Blur", "imageBlur.html", null ],
+    [ "Image - Alpha Mask", "imageAlphaMask.html", null ],
     [ "Gradient - Gradient Functions", "gradient1.html", null ],
     [ "Font - Basics", "font1.html", null ],
     [ "Font - Advanced", "font2.html", null ]

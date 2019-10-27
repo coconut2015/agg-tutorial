@@ -2,6 +2,7 @@ var dir_07c2df013bb20677b8e65a9f18968d2c =
 [
     [ "exception.h", "exception_8h_source.html", null ],
     [ "path.h", "path_8h_source.html", null ],
+    [ "tutorial_alphamask.cpp", "tutorial__alphamask_8cpp_source.html", null ],
     [ "tutorial_blur.cpp", "tutorial__blur_8cpp_source.html", null ],
     [ "tutorial_font_1.cpp", "tutorial__font__1_8cpp_source.html", null ],
     [ "tutorial_font_2.cpp", "tutorial__font__2_8cpp_source.html", null ],

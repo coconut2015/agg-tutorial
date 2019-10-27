@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="800" height="200">
+	<defs>
+		<linearGradient id="g1">
+			<stop offset="0%" stop-color="#ffd700"/>
+			<stop offset="100%" stop-color="#ff0000"/>
+		</linearGradient>
+		<filter id="f1">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="0"/>
+		</filter>
+		<filter id="f2">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+		</filter>
+		<filter id="f3">
+			<feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+			<feOffset dx="5" dy="5"/>
+		</filter>
+		<g id="circle">
+			<circle cx="100" cy="100" r="70" stroke="#ee00cccc" stroke-width="10" fill="none"/>
+			<circle cx="100" cy="100" r="30" stroke="none" fill="url(#g1)"/>
+		</g>
+	</defs>
+	<g>
+		<use xlink:href="#circle"/>
+	</g>
+	<g transform="translate(200,0)">
+		<use xlink:href="#circle" filter="url(#f1)"/>
+	</g>
+	<g transform="translate(400,0)">
+		<use xlink:href="#circle" filter="url(#f2)"/>
+	</g>
+	<g transform="translate(600,0)">
+		<use xlink:href="#circle" filter="url(#f3)"/>
+		<use xlink:href="#circle"/>
+	</g>
+</svg>

@@ -13,6 +13,7 @@ Tutorials {#tutorials}
 @subpage image2
 @subpage imageLayer
 @subpage imageBlur
+@subpage imageAlphaMask
 @subpage gradient1
 @subpage font1
 @subpage font2

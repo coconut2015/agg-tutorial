@@ -17,11 +17,14 @@
 #include <agg_conv_stroke.h>
 #include <agg_conv_transform.h>
 #include <agg_ellipse.h>
+#include <agg_alpha_mask_u8.h>
+#include <agg_pixfmt_amask_adaptor.h>
 #include <agg_pixfmt_rgba.h>
 #include <agg_rasterizer_scanline_aa.h>
 #include <agg_renderer_base.h>
 #include <agg_renderer_scanline.h>
 #include <agg_scanline_p.h>
+#include <agg_scanline_u.h>
 #include <agg_span_allocator.h>
 #include <agg_span_interpolator_linear.h>
 #include <agg_span_gradient.h>
@@ -101,6 +104,31 @@ drawIcon(SrcPixelFormat& pixFmt, int x, int y, int width, int height)
     }
 }
 
+template<class PixelFormat, class Path, class AlphaMaskType>
+void
+drawAMPath(PixelFormat& pixFmt, Path& path, const agg::rgba8& color, AlphaMaskType &alphaMask, int x, int y, int width, int height)
+{
+    agg::rendering_buffer   renBuffer;
+    PixelFormat subPixFmt (renBuffer);
+    subPixFmt.attach (pixFmt, x, y , x + width - 1, y + height - 1);
+
+    typedef agg::pixfmt_amask_adaptor<PixelFormat, AlphaMaskType> AMPixelFormat;
+    typedef agg::renderer_base<AMPixelFormat> AMRendererBaseType;
+
+    AMPixelFormat amPixFmt (subPixFmt, alphaMask);
+    AMRendererBaseType amRBase (amPixFmt);
+    agg::renderer_scanline_aa_solid<AMRendererBaseType> amrs (amRBase);
+    amrs.color(color);
+
+    agg::rasterizer_scanline_aa<> ras;
+    ras.auto_close(false);
+    agg::scanline_p8 scanline;
+
+    ras.reset();
+    ras.add_path(path);
+    agg::render_scanlines(ras, scanline, amrs);
+}
+
 template<class PixFormat, class BlurType>
 void
 blurImage(PixFormat& pixFmt, int x, int y, int width, int height, BlurType& blur, double radius)
@@ -118,6 +146,8 @@ main (int argc, const char* argv[])
     {
         const int imageWidth = 800;
         const int imageHeight = 200;
+        const int iconWidth = 200;
+        const int iconHeight = 200;
 
         agg::rasterizer_scanline_aa<> ras;
         ras.auto_close(false);
@@ -127,35 +157,55 @@ main (int argc, const char* argv[])
         const int pixelSize = PixelFormat::pix_width;
 
         const double PI = 3.14159265358979;
+        const agg::rgba8 blackColor(0, 0, 0, 0xff);
+        const agg::rgba8 whiteColor (0xff, 0xff, 0xff, 0xff);
+        const agg::rgba8 transparentWhiteColor (0xff, 0xff, 0xff, 0);
 
         unsigned char *imageBuffer = new unsigned char[imageWidth * imageHeight * pixelSize];
         agg::rendering_buffer   renderBuffer (imageBuffer, imageWidth, imageHeight, imageWidth * pixelSize);
         PixelFormat             pixFmt (renderBuffer);
         RendererBaseType        rBase (pixFmt);
-
-        const agg::rgba8 whiteColor (0xff, 0xff, 0xff, 0xff);
         rBase.clear(whiteColor);
+
+        unsigned char *iconBuffer = new unsigned char[iconWidth * iconHeight * pixelSize];
+        agg::rendering_buffer   iconRenderBuffer (iconBuffer, iconWidth, iconHeight, iconWidth * pixelSize);
+        PixelFormat             iconPixFmt (iconRenderBuffer);
+        RendererBaseType        iconRBase (iconPixFmt);
+        iconRBase.clear(transparentWhiteColor);
+
+        double square[] =
+        {
+            0,   0,
+          200,   0,
+          200, 200,
+            0, 200,
+            0,   0
+        };
+        SimplePath path (square, sizeof(square) / sizeof(double));
 
         {
             drawIcon (pixFmt, 0, 0, 200, 200);
 
+            drawIcon (iconPixFmt, 0, 0, 200, 200);
+
+            typedef agg::alpha_mask_rgba32a AlphaMaskType;
+
+            AlphaMaskType alphaMask (iconRenderBuffer);
+
             {
-                drawIcon (pixFmt, 200, 0, 200, 200);
-                agg::recursive_blur<agg::rgba8, agg::recursive_blur_calc_rgba<> > blur;
-                blurImage (pixFmt, 200, 0, 200, 200, blur, 10);
+                drawAMPath (pixFmt, path, blackColor, alphaMask, 200, 0, 200, 200);
             }
 
             {
-                drawIcon (pixFmt, 400, 0, 200, 200);
-                agg::stack_blur<agg::rgba8, agg::stack_blur_calc_rgba<> > blur;
+                drawAMPath (pixFmt, path, blackColor, alphaMask, 400, 0, 200, 200);
+                agg::recursive_blur<agg::rgba8, agg::recursive_blur_calc_rgba<> > blur;
                 blurImage (pixFmt, 400, 0, 200, 200, blur, 10);
             }
 
             {
-                drawIcon (pixFmt, 600 + 5, 0 + 5, 200, 200);
+                drawAMPath (pixFmt, path, blackColor, alphaMask, 600 + 5, 0 + 5, 200, 200);
                 agg::recursive_blur<agg::rgba8, agg::recursive_blur_calc_rgba<> > blur;
                 blurImage (pixFmt, 600 + 5, 0 + 5, 200, 200, blur, 10);
-
                 drawIcon (pixFmt, 600, 0, 200, 200);
             }
         }
@@ -166,7 +216,7 @@ main (int argc, const char* argv[])
         {
             sprintf (fileName, "%s/", argv[1]);
         }
-        strcat(fileName, "tutorial_blur.png");
+        strcat(fileName, "tutorial_alphamask.png");
         writePng<RendererBaseType> (fileName, rBase);
 
         delete imageBuffer;

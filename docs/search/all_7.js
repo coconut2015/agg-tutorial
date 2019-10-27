@@ -42,6 +42,7 @@ var searchData=
   ['image_5ffilter_5fsinc64',['image_filter_sinc64',['../classagg_1_1image__filter__sinc64.html',1,'agg']]],
   ['image_5ffilter_5fspline16',['image_filter_spline16',['../structagg_1_1image__filter__spline16.html',1,'agg']]],
   ['image_5ffilter_5fspline36',['image_filter_spline36',['../structagg_1_1image__filter__spline36.html',1,'agg']]],
+  ['image_20_2d_20alpha_20mask',['Image - Alpha Mask',['../imageAlphaMask.html',1,'tutorials']]],
   ['image_20_2d_20blur',['Image - Blur',['../imageBlur.html',1,'tutorials']]],
   ['image_20_2d_20layers',['Image - Layers',['../imageLayer.html',1,'tutorials']]],
   ['iterator',['iterator',['../classagg_1_1scanline32__u8_1_1iterator.html',1,'agg::scanline32_u8']]],

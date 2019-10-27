@@ -153,6 +153,11 @@ add_executable(tutorial_blur
 add_test(NAME tutorial_blur
     COMMAND tutorial_blur  ../images)
 
+add_executable(tutorial_alphamask
+	tutorial/tutorial_alphamask.cpp)
+add_test(NAME tutorial_alphamask
+    COMMAND tutorial_alphamask  ../images)
+
 # -- references --------------------------------------------------------------
 
 add_executable(reference_linecap

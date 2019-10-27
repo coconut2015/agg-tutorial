@@ -15,7 +15,9 @@ is a true Gaussian blur.  The interface is the same for these two blurs.
 	blur.blur (pixFmt, radius);
 ```
 
-Note that the entire pixFmt are being blurred.  However, it is pretty straightforward
+The `radius` is roughly equivalent to twice the value of SVG's `stdDeviation`. 
+
+Note that the entire pixFmt is blurred.  However, it is pretty straightforward
 to limit blurring to a specifc region of pixFmt.
 
 ```cpp
