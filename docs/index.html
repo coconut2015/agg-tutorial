@@ -84,11 +84,11 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Anti-Grain Geometry (AGG) is a wellknown low level graphics library that can produce very high quality 2D images. There are many projects use it as the backend engine.</p>
-<p>This tutorial was created because AGG was somewhat difficult to use. One basically has to look at other open source projects (e.g. matplotlib) to figure out how to use some of its functionalities.</p>
+<p>This tutorial was created because AGG is somewhat difficult to use. One basically has to look at other open source projects (e.g. matplotlib) to figure out how to use some of its functionalities.</p>
 <p>This tutorial is based on AGG-2.4, which has a permissive BSD-license. For the sake of ease of use, I also created an unofficial mirror at <a href="https://github.com/coconut2015/agg-2.4">https://github.com/coconut2015/agg-2.4</a> that strips away most non-essential files.</p>
 <h2>AGG Capabilities </h2>
 <p>AGG supports most operations in <a href="https://www.w3.org/Graphics/SVG/">SVG</a>. In fact, it operates in a very similar fashion. Thus, it is very straightfoward to create a higher level API that either generates raster images or SVG files.</p>
-<p>For this reason, parts of tutorials will refer to SVG's capability from time-to-time.</p>
+<p>For this reason, some tutorials will mention SVG and give equivalent SVG images.</p>
 <h2>Requirements </h2>
 <p>This tutorial was tested on Ubuntu 18.04 LTS, but the code should be fairly portable on most other platforms.</p>
 <p>You will need the following packages to build and run the tutorial examples.</p>
@@ -98,11 +98,15 @@ $(document).ready(function(){initNavTree('index.html','');});
 <li>libpng</li>
 <li>freetype</li>
 </ul>
+<h2>Build </h2>
+<p>Simply run <code>./make.sh</code> in the repo root and a debug build would be made in the <code>debug/</code> directory where all tutorial executables are generated.</p>
 <h2>Links </h2>
 <ul>
 <li>This tutorial's GitHub repo: <a href="https://github.com/coconut2015/agg-tutorial">https://github.com/coconut2015/agg-tutorial</a></li>
 <li>This tutorial's web page: <a href="https://coconut2015.github.io/agg-tutorial">https://coconut2015.github.io/agg-tutorial</a></li>
 <li>AGG-2.4 unofficial mirror: <a href="https://github.com/coconut2015/agg-2.4">https://github.com/coconut2015/agg-2.4</a></li>
+<li>AGG official site: <a href="http://www.antigrain.com/">http://www.antigrain.com/</a></li>
+<li>AGG offical project at SourceForge: <a href="https://sourceforge.net/projects/agg/">https://sourceforge.net/projects/agg/</a></li>
 </ul>
 <h2>License </h2>
 <p>All source codes in this tutorial are licensed under APL 2.0.</p>

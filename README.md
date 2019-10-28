@@ -5,7 +5,7 @@ Anti-Grain Geometry (AGG) is a wellknown low level graphics library that can
 produce very high quality 2D images.  There are many projects use it as
 the backend engine.
 
-This tutorial was created because AGG was somewhat difficult to use.  One
+This tutorial was created because AGG is somewhat difficult to use.  One
 basically has to look at other open source projects (e.g. matplotlib)
 to figure out how to use some of its functionalities.
 
@@ -22,8 +22,8 @@ In fact, it operates in a very similar fashion.  Thus, it is very
 straightfoward to create a higher level API that either generates
 raster images or SVG files.
 
-For this reason, parts of tutorials will refer to SVG's capability
-from time-to-time.
+For this reason, some tutorials will mention SVG and give equivalent
+SVG images.
 
 Requirements
 ------------
@@ -38,12 +38,21 @@ You will need the following packages to build and run the tutorial examples.
 * libpng
 * freetype
 
+Build
+-----
+
+Simply run `./make.sh` in the repo root and a debug build would be
+made in the `debug/` directory where all tutorial executables are
+generated.
+
 Links
 -----
 
 * This tutorial's GitHub repo: https://github.com/coconut2015/agg-tutorial
 * This tutorial's web page: https://coconut2015.github.io/agg-tutorial
 * AGG-2.4 unofficial mirror: https://github.com/coconut2015/agg-2.4 
+* AGG official site: http://www.antigrain.com/
+* AGG offical project at SourceForge: https://sourceforge.net/projects/agg/
 
 License
 -------
