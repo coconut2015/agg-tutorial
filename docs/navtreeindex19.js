@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"structagg_1_1trans__affine.html#af969274d2eda067d21db94234c9e2ce2":[2,0,0,433,35],
+"structagg_1_1trans__affine.html#af9c1cc72cc6950e326294e26893e0742":[2,0,0,433,28],
 "structagg_1_1trans__affine.html#afbc10247a09c215dcfb35af09d42c8a1":[2,0,0,433,32],
 "structagg_1_1trans__perspective.html":[2,0,0,443],
 "structagg_1_1trans__perspective.html#a005f96142124e1e173ba3690d2c706bd":[2,0,0,443,29],
@@ -114,6 +116,8 @@ var NAVTREEINDEX19 =
 "tutorial__path__2_8cpp_source.html":[3,0,1,15],
 "tutorial__path__3_8cpp_source.html":[3,0,1,16],
 "tutorial__rendererbase_8cpp_source.html":[3,0,1,17],
+"tutorial__shape__1_8cpp_source.html":[3,0,1,18],
+"tutorial__shape__2_8cpp_source.html":[3,0,1,19],
 "tutorials.html":[0],
-"writepng_8h_source.html":[3,0,1,18]
+"writepng_8h_source.html":[3,0,1,20]
 };

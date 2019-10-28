@@ -15,5 +15,7 @@ var tutorials =
     [ "Image - Alpha Mask", "imageAlphaMask.html", null ],
     [ "Gradient - Gradient Functions", "gradient1.html", null ],
     [ "Font - Basics", "font1.html", null ],
-    [ "Font - Advanced", "font2.html", null ]
+    [ "Font - Advanced", "font2.html", null ],
+    [ "Predefined Shapes - Ellipse", "shape1.html", null ],
+    [ "Predefined Shapes - Rectangle", "shape2.html", null ]
 ];

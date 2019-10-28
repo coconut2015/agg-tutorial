@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"structagg_1_1cell__style__aa.html#aee0a2be766b417ae489fa6f41f295821":[2,0,0,44,1],
+"structagg_1_1color__interpolator.html":[2,0,0,70],
 "structagg_1_1color__interpolator.html#a10cf7a1ef52d869eacca522d64cfa116":[2,0,0,70,0],
 "structagg_1_1color__interpolator.html#a49a762ebe891aa62e9afd23fe7cf1907":[2,0,0,70,1],
 "structagg_1_1color__interpolator.html#a69a6c8563e8e5a3dcd1f5ed1a62d5ef4":[2,0,0,70,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "structagg_1_1conv__smooth__poly1.html":[2,0,0,132],
 "structagg_1_1conv__smooth__poly1.html#a5bc616224547bf81af4775a051fb79d6":[2,0,0,132,0],
 "structagg_1_1conv__smooth__poly1.html#a66e3e35e44abf834dc4b481e3f056ac9":[2,0,0,132,3],
-"structagg_1_1conv__smooth__poly1.html#a6eb819ba0fbf27f44a3193e2a1124ee9":[2,0,0,132,1],
-"structagg_1_1conv__smooth__poly1.html#aa70d1d98d7ed58e09095fa9b9f7c07c2":[2,0,0,132,2],
-"structagg_1_1conv__smooth__poly1__curve.html":[2,0,0,133]
+"structagg_1_1conv__smooth__poly1.html#a6eb819ba0fbf27f44a3193e2a1124ee9":[2,0,0,132,1]
 };

@@ -17,3 +17,5 @@ Tutorials {#tutorials}
 @subpage gradient1
 @subpage font1
 @subpage font2
+@subpage shape1
+@subpage shape2

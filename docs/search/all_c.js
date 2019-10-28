@@ -95,5 +95,7 @@ var searchData=
   ['poly_5fcontainer_5freverse_5fadaptor',['poly_container_reverse_adaptor',['../classagg_1_1poly__container__reverse__adaptor.html',1,'agg']]],
   ['poly_5fplain_5fadaptor',['poly_plain_adaptor',['../classagg_1_1poly__plain__adaptor.html',1,'agg']]],
   ['poly_5fplain_5fadaptor_3c_20double_20_3e',['poly_plain_adaptor&lt; double &gt;',['../classagg_1_1poly__plain__adaptor.html',1,'agg']]],
-  ['prepared_5fglyph',['prepared_glyph',['../structagg_1_1fman_1_1font__engine__freetype__base_1_1prepared__glyph.html',1,'agg::fman::font_engine_freetype_base']]]
+  ['prepared_5fglyph',['prepared_glyph',['../structagg_1_1fman_1_1font__engine__freetype__base_1_1prepared__glyph.html',1,'agg::fman::font_engine_freetype_base']]],
+  ['predefined_20shapes_20_2d_20ellipse',['Predefined Shapes - Ellipse',['../shape1.html',1,'tutorials']]],
+  ['predefined_20shapes_20_2d_20rectangle',['Predefined Shapes - Rectangle',['../shape2.html',1,'tutorials']]]
 ];

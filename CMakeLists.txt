@@ -158,6 +158,16 @@ add_executable(tutorial_alphamask
 add_test(NAME tutorial_alphamask
     COMMAND tutorial_alphamask  ../images)
 
+add_executable(tutorial_shape_1
+	tutorial/tutorial_shape_1.cpp)
+add_test(NAME tutorial_shape_1
+    COMMAND tutorial_shape_1  ../images)
+
+add_executable(tutorial_shape_2
+	tutorial/tutorial_shape_2.cpp)
+add_test(NAME tutorial_shape_2
+    COMMAND tutorial_shape_2  ../images)
+
 # -- references --------------------------------------------------------------
 
 add_executable(reference_linecap

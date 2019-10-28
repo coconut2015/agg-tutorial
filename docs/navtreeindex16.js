@@ -1,5 +1,7 @@
 var NAVTREEINDEX16 =
 {
+"structagg_1_1conv__smooth__poly1.html#aa70d1d98d7ed58e09095fa9b9f7c07c2":[2,0,0,132,2],
+"structagg_1_1conv__smooth__poly1__curve.html":[2,0,0,133],
 "structagg_1_1conv__smooth__poly1__curve.html#a49fc001bf32aa7791f975b1eb602e362":[2,0,0,133,0],
 "structagg_1_1conv__smooth__poly1__curve.html#a507b21957ccd4f254ee12132f871314d":[2,0,0,133,2],
 "structagg_1_1conv__smooth__poly1__curve.html#aed4419ea09b5726e3ca0098a2175517b":[2,0,0,133,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX16 =
 "structagg_1_1line__parameters.html#a09baa143cf572f670b303100bf15bb30":[2,0,0,249,11],
 "structagg_1_1line__parameters.html#a1f03b09317e67e344bfca16c1ac4a5f4":[2,0,0,249,6],
 "structagg_1_1line__parameters.html#a357ea40877d3b5ef661cdfb6a86c7353":[2,0,0,249,13],
-"structagg_1_1line__parameters.html#a47a82fcf17ae480401d7dd019920ae84":[2,0,0,249,18],
-"structagg_1_1line__parameters.html#a48b5ccb99adabb6116a49ca989222bd5":[2,0,0,249,9],
-"structagg_1_1line__parameters.html#a68bf7fb6f2cf8bc3949e1430f13186c2":[2,0,0,249,14]
+"structagg_1_1line__parameters.html#a47a82fcf17ae480401d7dd019920ae84":[2,0,0,249,18]
 };
