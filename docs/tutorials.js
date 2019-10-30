@@ -17,5 +17,6 @@ var tutorials =
     [ "Font - Basics", "font1.html", null ],
     [ "Font - Advanced", "font2.html", null ],
     [ "Predefined Shapes - Ellipse", "shape1.html", null ],
-    [ "Predefined Shapes - Rectangle", "shape2.html", null ]
+    [ "Predefined Shapes - Rectangle", "shape2.html", null ],
+    [ "Validating Values", "validate.html", null ]
 ];

@@ -19,3 +19,4 @@ Tutorials {#tutorials}
 @subpage font2
 @subpage shape1
 @subpage shape2
+@subpage validate
